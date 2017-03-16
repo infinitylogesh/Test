@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="montague_2.10-0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../testMontague/lib/montague_2.10-0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../upshot-montague-master/src/main" />
+      <root url="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/sql_old/sfdc" />
+    </SOURCES>
+  </library>
+</component>
