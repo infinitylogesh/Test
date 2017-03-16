@@ -1,7 +1,7 @@
 package prime
 
 import com.workday.montague.ccg.{CcgCat, NP, S}
-import com.workday.montague.parser.ParserDict
+import com.workday.montague.parser.{IntegerMatcher, ParserDict}
 import com.workday.montague.semantics.{Form, SemanticState, identity, λ}
 
 /**
@@ -16,7 +16,7 @@ object lexicon {
     def s:Seq[String] = Seq(str,str+"s");
   }
 
-  val lexicon = ParserDict[CcgCat]() +
+  var lexicon = ParserDict[CcgCat]() +
     (("event".s) -> (NP,Form(allEventType):SemanticState)) +
     (("conference".s) -> (NP,Form(conference):SemanticState)) +
     (Seq("that") -> ((NP\NP),identity)) +
@@ -25,7 +25,8 @@ object lexicon {
     (Seq("organizing","a organizer") ->(V,Form(organizer):SemanticState)) +
     (Seq("what") ->(Q,identity)) +
     (Seq("are") ->(NP\Q,identity)) +
-    (Seq("all") ->(NP\NP,identity)) +
+    (Seq("all","happening") ->(NP\NP,identity)) +
     (Seq("the") ->((NP/NP)\NP,identity)) +
-    (Seq("my") ->(NP/NP,λ { n3:EventType  => listEvents(n3)}))
+    (Seq("my") ->(NP/E,λ { n3:EventType  => listEvents(n3)})) +
+    (Seq("in") ->((S/E)\NP,λ { n3:EventType =>λ { i:String => listEvents(n3,allRole,allEventCategory,Deduct(i))}}))
 }

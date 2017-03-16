@@ -23,5 +23,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.6:jar" level="project" />
     <orderEntry type="library" name="montague_2.10-0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="opennlp-brat-annotator-1.7.2" level="project" />
   </component>
 </module>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="opennlp-brat-annotator-1.7.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/logesh/libs/apache-opennlp-1.7.2/lib/opennlp-brat-annotator-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/logesh/libs/apache-opennlp-1.7.2/lib/opennlp-morfologik-addon-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/logesh/libs/apache-opennlp-1.7.2/lib/opennlp-tools-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/logesh/libs/apache-opennlp-1.7.2/lib/opennlp-uima-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
