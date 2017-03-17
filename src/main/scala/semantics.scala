@@ -5,9 +5,11 @@ package prime
   */
 
 sealed trait Statement;
-case class listEvents(eventType:EventType = allEventType,role: Role = allRole,eventCategory: EventCategory = allEventCategory,deduct:Deduct[String] = Deduct("")) extends Statement;
+case class listEvents(eventType:EventType = allEventType,role: Role = allRole,eventCategory: EventCategory = allEventCategory,deduce:Option[Entity]=None) extends Statement;
 
-case class Deduct[T](str:T *);
+sealed trait Entity
+case class Location(value:String) extends Entity
+case class Date(value:String) extends Entity
 
 sealed trait Role
 case object participant extends Role

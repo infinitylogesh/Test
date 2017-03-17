@@ -7,7 +7,7 @@ import com.workday.montague.semantics.{λ, _}
 /**
   * Created by prime on 16/3/17.
   */
-object parser extends SemanticParser[CcgCat](lexicon.lexicon){
+object parser extends SemanticParser[CcgCat](LexiconOps.lexicon){
 
   def parse(str: String): SemanticParseResult[CcgCat] = parse(str, tokenizer = parenTokenizer)
 

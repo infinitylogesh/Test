@@ -13,10 +13,17 @@ object test {
   def main(args: Array[String]): Unit = {
     print(">> ")
     for(line <- stdin.getLines()){
-      lexicon.lexicon = (lexicon.lexicon + (("chennai")->(E,Form("Chennai"):SemanticState)))
-      val output = parser.parse(line).bestParse;
-      println(output);
-      print(">> ");
+
+      val chn = Location("chennai")
+      LexiconOps.injectLexicon(Location("chennai"))
+      LexiconOps.injectLexicon(Location("bangalore"))
+      LexiconOps.injectLexicon(Location("mumbai"))
+      LexiconOps.injectLexicon(Date("this week"))
+      //((chn.value) -> (NP,Form(chn):SemanticState))
+      //val output = preProcess.parseSentence(preProcess.modelLocation,line);
+      val output = parser.parse(line).bestParse
+      println(output)
+      print(">> ")
     }
   }
 

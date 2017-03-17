@@ -1,6 +1,9 @@
+package prime
+
 import java.io.{BufferedInputStream, FileInputStream}
 
 import opennlp.tools.cmdline.parser.ParserTool
+import opennlp.tools.namefind.{NameFinderME, TokenNameFinderModel}
 import opennlp.tools.parser.{ParserFactory, ParserModel}
 import opennlp.tools.postag.{POSModel, POSTaggerME}
 
@@ -11,13 +14,12 @@ import scala.io.Source
   */
 
 
-object OpneNLPPOSTag {
+object preProcess {
 
-  def main(args: Array[String]): Unit = {
+  val modelLocation = "src/main/resources/en-ner-date.bin";
 
-    val modelLocation = "src/main/resources/en-pos-maxent.bin";
-    val parserModelLocation = "src/main/resources/en-parser-chunking.bin"
-    val searchFilePath = "src/main/resources/searchs.txt";
+    //val parserModelLocation = "src/main/resources/en-parser-chunking.bin"
+   // val searchFilePath = "src/main/resources/searchs.txt";
 
     // POS Tags
 
@@ -30,11 +32,6 @@ object OpneNLPPOSTag {
 
     // Parser
 
-    getSearchStringsFromFile(searchFilePath).foreach(searchTerm=> {
-      val parsedSentence = parseSentence(parserModelLocation,searchTerm);
-      println(parsedSentence);
-    });
-  }
 
   def getTags(modelLocation:String,searchString:String):Array[String] = {
 
@@ -54,9 +51,9 @@ object OpneNLPPOSTag {
   }
 
   def parseSentence(modelLocation:String,searchString:String):String  = {
-    val parserModel = new ParserModel(new BufferedInputStream(new FileInputStream(modelLocation)));
-    val parser = ParserFactory.create(parserModel);
-    val parsedValue = ParserTool.parseLine(searchString,parser,1);
+    val parserModel = new TokenNameFinderModel(new BufferedInputStream(new FileInputStream(modelLocation)));
+    val parser = new NameFinderME(parserModel);
+    val parsedValue = parser.find(tokenize(searchString))
     parsedValue.mkString(" ");
   }
 
