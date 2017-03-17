@@ -20,17 +20,20 @@ object LexiconOps {
     (("event".s) -> (NP,Form(allEventType):SemanticState)) +
     (("conference".s) -> (NP,Form(conference):SemanticState)) +
     (Seq("that") -> ((NP\NP),identity)) +
-    (Seq("iam","i am") ->((S/V)\NP,λ { n3:EventType  => λ { n2:Role => listEvents(n3,n2)}})) +
+    (Seq("iam","i am") ->Seq(((S/V)\NP,λ { n3:EventType  => λ { n2:Role => listEvents(n3,n2)}}),
+      (((S/NP)/V)\NP,λ { eventType:EventType  => λ { role :Role =>λ { entity:Entity=>listEvents(eventType,role,allEventCategory,Some(entity))}}}))) +
     (Seq("participating","participant","a participant") ->(V,Form(participant):SemanticState)) +
     (Seq("organizing","a organizer") ->(V,Form(organizer):SemanticState)) +
     (Seq("what") ->(Q,identity)) +
     (Seq("list") ->(NP,identity)) +
+    (Seq("java") ->(NP/NP,Form(SearchString("Java")):SemanticState)) +
     (Seq("are") ->(NP\Q,identity)) +
     (Seq("all","happening") ->(NP\NP,identity)) +
     (Seq("the") ->((NP/NP)\NP,identity)) +
-    (Seq("my") ->(NP/NP,λ { n3:EventType  => listEvents(n3)})) +
+    (Seq("my") ->Seq((NP/NP,λ { n3:EventType  => listEvents(n3)}),(NP/NP,identity))) +
     (Seq("in") ->Seq(((S/NP)\NP,λ { n3:EventType  =>λ {i:Entity => listEvents(n3,allRole,allEventCategory,Some(i))}}),
-      ((NP\V)/NP,identity)))
+      ((NP/NP,identity)),
+      ((S/NP)\NP,λ { searchString: SearchString =>λ { n3:EventType  =>λ {i:Entity => listEvents(n3,allRole,allEventCategory,Some(i),Some(searchString))}}}) ))
    // (("chennai") -> (NP,Form(Location("Chennai")):SemanticState))
 
 
