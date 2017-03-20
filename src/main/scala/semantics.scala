@@ -11,12 +11,12 @@ sealed trait Statement;
  * eventType : Training,meeting,conference,workshops etc
  * role : Participant,Organizer,Creater
  * eventCategory : Account,Project,Global events
- * deduce : Location / Date - Optional argument TODO : see if date should be handled separately
+ * deduce : Location / Date - Optional argument
  * searchString : A fuzzy string to the backend to restrict the results - Optional argument
  */
 
 case class listEvents(eventType:EventType = allEventType,role: Role = allRole,
-                      eventCategory: EventCategory = allEventCategory,deduce:Option[Entity]=None,
+                      eventCategory: EventCategory = allEventCategory,location: Option[Location]=None,date:Option[DateEntity] = None,
                       searchString:Option[SearchString] = None) extends Statement;
 
 
@@ -26,7 +26,22 @@ case class listEvents(eventType:EventType = allEventType,role: Role = allRole,
 
 sealed trait Entity
 case class Location(value:String) extends Entity
-case class Date(value:String) extends Entity
+
+/*
+   case class for different forms of date that can be detected in the sentence.
+   DateString will have strings related to dates like week, month , recent , next week etc.
+   StartDate will have date start date - YYYY-MM-DD
+   EndDate will have date end date - YYYY-MM-DD
+   Date Range - Start date and End date.
+ */
+
+
+sealed trait DateEntity extends Entity
+case class DateString(value:String) extends DateEntity
+case class Date(date:String) extends DateEntity
+case class StartDate(date:Date) extends DateEntity
+case class EndDate(date:Date) extends DateEntity
+case class DateRange(startDate: StartDate,endDate: EndDate) extends DateEntity
 
 case class SearchString(query:String) // Fuzzy search string.
 

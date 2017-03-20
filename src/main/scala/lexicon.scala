@@ -21,7 +21,7 @@ object LexiconOps {
     (("conference".s) -> (NP,Form(conference):SemanticState)) +
     (Seq("that") -> ((NP\NP),identity)) +
     (Seq("iam","i am") ->Seq(((S/V)\NP,λ { n3:EventType  => λ { n2:Role => listEvents(n3,n2)}}),
-      (((S/NP)/V)\NP,λ { eventType:EventType  => λ { role :Role =>λ { entity:Entity=>listEvents(eventType,role,allEventCategory,Some(entity))}}}))) +
+                            (((S/NP)/V)\NP,λ { eventType:EventType  => λ { role :Role =>λ { location:Location=>listEvents(eventType,role,allEventCategory,Some(location))}}}))) + // events i am participating in chennai.
     (Seq("participating","participant","a participant") ->(V,Form(participant):SemanticState)) +
     (Seq("organizing","a organizer") ->(V,Form(organizer):SemanticState)) +
     (Seq("what") ->(Q,identity)) +
@@ -31,9 +31,9 @@ object LexiconOps {
     (Seq("all","happening") ->(NP\NP,identity)) +
     (Seq("the") ->((NP/NP)\NP,identity)) +
     (Seq("my") ->Seq((NP/NP,λ { n3:EventType  => listEvents(n3)}),(NP/NP,identity))) +
-    (Seq("in") ->Seq(((S/NP)\NP,λ { n3:EventType  =>λ {i:Entity => listEvents(n3,allRole,allEventCategory,Some(i))}}),
-      ((NP/NP,identity)),
-      ((S/NP)\NP,λ { searchString: SearchString =>λ { n3:EventType  =>λ {i:Entity => listEvents(n3,allRole,allEventCategory,Some(i),Some(searchString))}}}) ))
+    (Seq("in") ->Seq(((S/NP)\NP,λ { n3:EventType  =>λ {i:Location => listEvents(n3,allRole,allEventCategory,Some(i))}}),
+                    ((NP/NP,identity)),
+                    ((S/NP)\NP,λ { n3:EventType  =>λ {i:DateEntity => listEvents(n3,allRole,allEventCategory,None,Some(i))}})))
    // (("chennai") -> (NP,Form(Location("Chennai")):SemanticState))
 
 
@@ -43,6 +43,7 @@ object LexiconOps {
   def injectLexicon[T <: Entity](entity:T):Unit = {
       val lexeme:(String,(ccg.NP.type,SemanticState)) = entity match {
         case d@Location(value:String) => ((value) -> (NP,Form(d):SemanticState))
+        case d@DateString(value:String) => ((value) -> (NP,Form(d):SemanticState))
         case d@Date(value:String) => ((value) -> (NP,Form(d):SemanticState))
       }
     //lexicon += lexeme
