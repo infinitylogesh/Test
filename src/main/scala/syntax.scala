@@ -9,3 +9,5 @@ import com.workday.montague.ccg.TerminalCat
 case object Q extends TerminalCat { val category = "Q" }
 case object E extends TerminalCat { val category = "E" } /* Events - Custom CCG category */
 case object V extends TerminalCat { val category = "V" }
+case object O extends TerminalCat { val category = "O" } /* objects like JAVA etc*/
+

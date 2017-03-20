@@ -20,6 +20,8 @@ object test {
       LexiconOps.injectLexicon(Location("mumbai"))
       LexiconOps.injectLexicon(DateString("this week"))
       LexiconOps.injectLexicon(DateString("today"))
+      LexiconOps.injectLexicon(Date("1st"))
+      LexiconOps.injectLexicon(Date("2nd"))
       //((chn.value) -> (NP,Form(chn):SemanticState))
       //val output = preProcess.parseSentence(preProcess.modelLocation,line);
       val output = parser.parse(line).bestParse

@@ -4,7 +4,7 @@
 		module="primesemanticsearch_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170316114648"
+		publication="20170320162423"
 	>
 		<description>
 		PrimeSemanticSearch
@@ -34,5 +34,6 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.1" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
