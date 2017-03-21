@@ -19,6 +19,8 @@ case class listEvents(eventType:EventType = allEventType,role: Role = allRole,
                       eventCategory: EventCategory = allEventCategory,location: Option[Location]=None,date:Option[DateEntity] = None,
                       searchString:Option[SearchString] = None) extends Statement;
 
+case class run(command:InternalCommands) extends Statement
+
 
 /*
 * Entities that are detected from the sentences
@@ -63,4 +65,7 @@ case object global extends EventCategory
 case object group extends EventCategory
 case object project extends  EventCategory
 case object allEventCategory extends EventCategory
+
+sealed trait InternalCommands
+case object regression extends InternalCommands
 

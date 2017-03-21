@@ -46,6 +46,8 @@ object LexiconOps {
                      /*TODO*/     ((NP\NP)/NP,λ { dateRange: DateRange => λ{i:Location =>λ { n3:EventType => listEvents(n3,allRole,allEventCategory,Some(i),Some(dateRange))}}}))) +
     (Seq("all","happening") ->Seq((NP\NP,identity),
                                   (NP/NP,identity))) +
+    (("run") -> ((NP/I),λ { cmd :InternalCommands =>(run(cmd))})) + // Internal commands
+    (("regression") -> (I,Form(regression):SemanticState)) +
     (Seq("the") ->((NP/NP)\NP,identity)) +
     (Seq("my") ->Seq(((NP/NP),λ { n3:EventType  => listEvents(n3)}),(NP/NP,identity))) +
     (Seq("in") ->Seq(((S/NP)\NP,λ { n3:EventType  =>λ {i:Location => listEvents(n3,allRole,allEventCategory,Some(i))}}),

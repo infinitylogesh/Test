@@ -25,7 +25,7 @@ object test {
       //((chn.value) -> (NP,Form(chn):SemanticState))
       //val output = preProcess.parseSentence(preProcess.modelLocation,line);
       val output = parser.parse(line).bestParse
-      println(output)
+      router.route(output);
       print(">> ")
     }
   }
