@@ -6,6 +6,8 @@ package prime
 
 import io.Source._
 import scala.annotation.meta.param
+import java.util.Calendar
+import java.io._
 import com.workday.montague.semantics.Form
 
 object regress {
@@ -15,15 +17,12 @@ object regress {
     val lines = io.Source.fromFile("src/main/resources/testQueries.txt").getLines();
     val testResults = for(line <- lines) yield(line,assertClass(line))
     val testResultsList = testResults.toList
-    println("Summary")
-    println("_______")
-    println("");
-    println(testResultsList.groupBy(_._2).map(x=>(x._1,x._2.size)))
-    println("");
-    println("Result")
-    println("_______")
-    println("");
-    testResultsList.sortBy(_._2).map((x)=>println(x._1+" --> "+x._2));
+    val summary = "Summary" + "\n" + "_______" + "\n" + testResultsList.groupBy(_._2).map(x=>(x._1,x._2.size)).toString + "\n\n" +"Result" + "\n" + "_______"
+    val results = testResultsList.sortBy(_._2).map((x)=>(x._1+" --> "+x._2)).reduceLeft((x:String,y:String)=>(x+"\n"+y));
+
+    println(summary)
+    println(results)
+    writeFile(summary+"\n"+results)
   }
 
 
@@ -39,6 +38,10 @@ object regress {
       case _ => false
     }
     result
+  }
+
+  def writeFile(content:String) = {
+    new PrintWriter("results-log-"+Calendar.getInstance().getTimeInMillis+".txt") { write(content); close }
   }
 
 }
