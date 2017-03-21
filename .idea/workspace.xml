@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164c94f7-ad15-4b56-84a8-c4ac0e172730" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$12$$anonfun$apply$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$13$$anonfun$apply$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$4$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$5$$anonfun$apply$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$6$$anonfun$apply$3$$anonfun$apply$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$6$$anonfun$apply$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$7$$anonfun$apply$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$8$$anonfun$apply$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$9$$anonfun$apply$7$$anonfun$apply$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$9$$anonfun$apply$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/regress$$anonfun$renderResult$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/regress$$anonfun$renderResult$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/regress$$anonfun$renderResult$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/regress$$anonfun$renderResult$4.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/docs/Queries_CCG_Derivation.xlsx" afterPath="$PROJECT_DIR$/src/main/docs/Queries_CCG_Derivation.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/docs/.~lock.Queries_CCG_Derivation.xlsx#" afterPath="$PROJECT_DIR$/src/main/docs/.~lock.Queries_CCG_Derivation.xlsx#" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/testQueries.txt" afterPath="$PROJECT_DIR$/src/main/resources/testQueries.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/lexicon.scala" afterPath="$PROJECT_DIR$/src/main/scala/lexicon.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/regress.scala" afterPath="$PROJECT_DIR$/src/main/scala/regress.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +38,8 @@
       <file leaf-file-name="lexicon.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/lexicon.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="212">
+              <caret line="47" column="25" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="25" />
               <folding>
                 <element signature="e#15#57#0" expanded="true" />
               </folding>
@@ -195,8 +173,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/router.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/testQueries.txt" />
-        <option value="$PROJECT_DIR$/src/main/scala/lexicon.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/regress.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/lexicon.scala" />
       </list>
     </option>
   </component>
@@ -988,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lexicon.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="212">
+          <caret line="47" column="25" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="25" />
           <folding>
             <element signature="e#15#57#0" expanded="true" />
           </folding>

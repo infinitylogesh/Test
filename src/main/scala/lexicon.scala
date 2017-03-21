@@ -38,6 +38,7 @@ object LexiconOps {
     (Seq("organizing","a organizer","organized") ->(V,Form(organizer):SemanticState)) +
     (Seq("what") ->(NP,identity)) +
     (Seq("me") ->(NP,identity)) +
+    (("between")->()) +
     (Seq("what are all","by") ->Seq(/*(NP/NP,identity),*/(S/NP,identity))) +
     (Seq("by") ->((NP\V)/NP,identity)) +
     (Seq("related") ->Seq(((NP\NP)\NP,identity),((NP\NP),identity))) +
