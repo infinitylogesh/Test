@@ -43,7 +43,7 @@ case class DateString(value:String) extends DateEntity
 case class Date(date:String) extends DateEntity
 case class DateRange(startDate: Date,endDate: Date) extends DateEntity
 
-case class SearchString(query:String) // Fuzzy search string.
+case class SearchString(query:String) extends Entity// Fuzzy search string.
 
 sealed trait Role
 case object participant extends Role

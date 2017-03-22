@@ -31,7 +31,7 @@ object regress {
   * */
 
   def assertClass(searchQuery:String):Boolean = {
-    val output = parser.parse(searchQuery).bestParse
+    val output = parser.customParser(parser.parse(searchQuery))
     val out = output.map(_.semantic);
     val result = out match {
       case Some(Form(listEvents(_,_,_,_,_,_))) => true // the semanticstate returned is always inside Form.

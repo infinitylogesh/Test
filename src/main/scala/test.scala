@@ -22,10 +22,14 @@ object test {
       LexiconOps.injectLexicon(DateString("today"))
       LexiconOps.injectLexicon(Date("1st"))
       LexiconOps.injectLexicon(Date("2nd"))
+      LexiconOps.injectLexicon(SearchString("oracle"))
+
       //((chn.value) -> (NP,Form(chn):SemanticState))
       //val output = preProcess.parseSentence(preProcess.modelLocation,line);
-      val output = parser.parse(line).bestParse
-      router.route(output);
+      val parsedLine = parser.parse(line);
+      val output = parser.customParser(parsedLine)
+   //   parser.parse(line).bestParse
+      router.route(output)
       print(">> ")
     }
   }
