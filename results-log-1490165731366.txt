@@ -1,0 +1,55 @@
+Summary
+_______
+Map(false -> 30, true -> 19)
+
+Result
+_______
+events that i am participating in chennai --> false
+java events --> false
+java event --> false
+java related events --> false
+events in chennai between 1st and 2nd --> false
+events between 1st and 2nd --> false
+java events in chennai between 1st and 2nd --> false
+conferences happening in chennai --> false
+conferences happening in this week --> false
+conferences that i am participating in chennai --> false
+my conferences in chennai --> false
+conferences happening today --> false
+recent training in java --> false
+run regression --> false
+List all the Java related events between 1st of March and 4th of March --> false
+List all the Java related events happening this week --> false
+what are all the cultural events scheduled this month --> false
+what are all the work anniversary events scheduled this month --> false
+Oracle workshops in chennai --> false
+what are all the meetings I have today --> false
+what are all the upcoming events this week --> false
+D&I events --> false
+Hub events --> false
+ibelong events --> false
+my pending events --> false
+What are all the recommended events for me --> false
+recommended events --> false
+list the events i am participating in chennai --> false
+events i am participating in this week --> false
+events i am participating this week --> false
+events in chennai --> true
+events that i am participating --> true
+What are all the events that Iam participating --> true
+events happening in chennai --> true
+events happening in this week --> true
+my events --> true
+my events in chennai --> true
+java events happening in chennai --> true
+java related events happening in chennai --> true
+what are all my events --> true
+what are all my events in chennai --> true
+events organized by me --> true
+list all the events that i am participating --> true
+list all the events i am participating --> true
+List all the events that  I am speaking --> true
+my conferences --> true
+Events happening today --> true
+list all the events in chennai --> true
+list the events i am participating --> true

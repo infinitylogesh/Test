@@ -1,1 +1,1 @@
-/home/prime/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/prime/.sbt/boot/scala-2.10.6/lib/scala-library.jar:/home/prime/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-3.0.1.jar:/home/prime/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.1.jar:/home/prime/.sbt/boot/scala-2.10.6/lib/scala-reflect.jar:/home/prime/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar:/home/prime/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar

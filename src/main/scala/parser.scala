@@ -9,11 +9,14 @@ import com.workday.montague.semantics.{λ, _}
   */
 object parser extends SemanticParser[CcgCat](LexiconOps.lexicon){
 
+  val stopWords = List("that","related","to");
+
   def parse(str: String): SemanticParseResult[CcgCat] = parse(str, tokenizer = parenTokenizer)
 
   // We need a custom tokenizer to separate parentheses from adjoining terms
   private def parenTokenizer(str: String) = {
-    str.replace("(", " ( ").replace(")", " ) ").trim.toLowerCase.split("\\s+")
+    val splitString = str.replace("(", " ( ").replace(")", " ) ").trim.toLowerCase.split("\\s+")
+    splitString.filterNot(stopWords.contains(_));
   }
 
 }

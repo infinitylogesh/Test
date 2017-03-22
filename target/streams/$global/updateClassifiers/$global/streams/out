@@ -11,6 +11,70 @@
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [test]
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [runtime]
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[info] Resolving org.scalactic#scalactic_2.11;3.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.11;3.0.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.1
+[debug] 	found org.scalactic#scalactic_2.11;3.0.1 in sbt-chain
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[info] Resolving org.scalatest#scalatest_2.11;3.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;3.0.1 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.1
+[debug] 	found org.scalatest#scalatest_2.11;3.0.1 in sbt-chain
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->default(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -30,8 +94,104 @@
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [test]
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [runtime]
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->default(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->master]
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [optional]
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [provided]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalactic#scalactic_2.11;3.0.1 [test-internal->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->master(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->compile(*)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->default]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->master]
+[debug] == resolving dependencies default#primesemanticsearch$sources_2.10;1.0->org.scalatest#scalatest_2.11;3.0.1 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#primesemanticsearch$sources_2.10;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -63,9 +223,37 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 		tried /home/prime/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/srcs/scala-parser-combinators_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src) (725ms)
+[debug] 		tried /home/prime/.ivy2/local/org.scalactic/scalactic_2.11/3.0.1/srcs/scalactic_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar(src) (1114ms)
+[debug] 		tried /home/prime/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.5/srcs/scala-xml_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src) (847ms)
+[debug] 		tried /home/prime/.ivy2/local/org.scalatest/scalatest_2.11/3.0.1/srcs/scalatest_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar(src) (4260ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] :: resolution report :: resolve 14ms :: artifacts dl 50ms
+[debug] :: resolution report :: resolve 44ms :: artifacts dl 6958ms
 [debug] 	report for default#primesemanticsearch$sources_2.10;1.0 compile produced in /home/prime/IdeaProjects/PrimeSemanticSearch/target/resolution-cache/reports/default-primesemanticsearch$sources_2.10-compile.xml
 [debug] 	report for default#primesemanticsearch$sources_2.10;1.0 runtime produced in /home/prime/IdeaProjects/PrimeSemanticSearch/target/resolution-cache/reports/default-primesemanticsearch$sources_2.10-runtime.xml
 [debug] 	report for default#primesemanticsearch$sources_2.10;1.0 test produced in /home/prime/IdeaProjects/PrimeSemanticSearch/target/resolution-cache/reports/default-primesemanticsearch$sources_2.10-test.xml
@@ -79,4 +267,4 @@
 [debug] 	report for default#primesemanticsearch$sources_2.10;1.0 docs produced in /home/prime/IdeaProjects/PrimeSemanticSearch/target/resolution-cache/reports/default-primesemanticsearch$sources_2.10-docs.xml
 [debug] 	report for default#primesemanticsearch$sources_2.10;1.0 pom produced in /home/prime/IdeaProjects/PrimeSemanticSearch/target/resolution-cache/reports/default-primesemanticsearch$sources_2.10-pom.xml
 [debug] 	report for default#primesemanticsearch$sources_2.10;1.0 scala-tool produced in /home/prime/IdeaProjects/PrimeSemanticSearch/target/resolution-cache/reports/default-primesemanticsearch$sources_2.10-scala-tool.xml
-[debug] 	resolve done (14ms resolve - 50ms download)
+[debug] 	resolve done (44ms resolve - 6958ms download)
