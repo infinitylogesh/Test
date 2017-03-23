@@ -8,16 +8,24 @@ import com.workday.montague.semantics.{λ, _}
 /**
   * Created by prime on 16/3/17.
   */
+
 object parser extends SemanticParser[CcgCat](LexiconOps.lexicon){
 
-  val stopWords = List("that","related","to");
+  val stopWords = List("that","related","to")
+
+  // TODO : Performance check - !!Alert.
+
+  // Getting the keys of the lexicons and spliting the keys.
+  val lexiconKeys = LexiconOps.lexicon.map.keys.toList.map(x=>x.split("\\s+")).flatMap(x=>x).distinct
+  val attributeFilterWords = attributes.attributesMap.flatMap(x=>x._2).toList
 
   def parse(str: String): SemanticParseResult[CcgCat] = parse(str, tokenizer = parenTokenizer)
 
   // We need a custom tokenizer to separate parentheses from adjoining terms
   private def parenTokenizer(str: String) = {
     val splitString = str.replace("(", " ( ").replace(")", " ) ").trim.toLowerCase.split("\\s+")
-    splitString.filterNot(stopWords.contains(_));
+    val tokensSansStopWords = splitString.filterNot(stopWords.contains(_)) // removing the stop words
+    tokensSansStopWords.filter((lexiconKeys++attributeFilterWords).contains(_)) // retaining the tokens that are only present in lexicons
   }
 
   /*

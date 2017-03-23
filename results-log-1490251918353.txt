@@ -1,0 +1,56 @@
+Summary
+_______
+Map(false -> 15, true -> 35)
+
+Result
+_______
+java events in chennai between 1st and 2nd --> false
+recent training in java --> false
+run regression --> false
+List all the Java related events between 1st of March and 4th of March --> false
+what are all the cultural events scheduled this month --> false
+what are all the work anniversary events scheduled this month --> false
+Oracle workshops in chennai --> false
+what are all the meetings I have today --> false
+D&I events --> false
+Hub events --> false
+ibelong events --> false
+What are all the recommended events for me --> false
+recommended events --> false
+events i am participating this week --> false
+events in java --> false
+events in chennai --> true
+events that i am participating --> true
+What are all the events that Iam participating --> true
+events happening in chennai --> true
+events happening in this week --> true
+events that i am participating in chennai --> true
+my events --> true
+my events in chennai --> true
+java events --> true
+java event --> true
+java events happening in chennai --> true
+java related events --> true
+java related events happening in chennai --> true
+what are all my events --> true
+what are all my events in chennai --> true
+events organized by me --> true
+events in chennai between 1st and 2nd --> true
+events between 1st and 2nd --> true
+list all the events that i am participating --> true
+list all the events i am participating --> true
+List all the events that  I am speaking --> true
+conferences happening in chennai --> true
+conferences happening in this week --> true
+conferences that i am participating in chennai --> true
+my conferences --> true
+my conferences in chennai --> true
+Events happening today --> true
+conferences happening today --> true
+List all the Java related events happening this week --> true
+what are all the upcoming events this week --> true
+list all the events in chennai --> true
+my pending events --> true
+list the events i am participating --> true
+list the events i am participating in chennai --> true
+events i am participating in this week --> true

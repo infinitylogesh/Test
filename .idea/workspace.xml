@@ -2,54 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164c94f7-ad15-4b56-84a8-c4ac0e172730" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$12$$anonfun$apply$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$17$$anonfun$apply$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$18$$anonfun$apply$6$$anonfun$apply$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$18$$anonfun$apply$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$19$$anonfun$apply$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$23$$anonfun$apply$9$$anonfun$apply$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$23$$anonfun$apply$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$8$$anonfun$apply$2.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/attributeMatcher.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/attributes.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$10$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$11$$anonfun$apply$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$12$$anonfun$apply$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$15$$anonfun$apply$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$2$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$20$$anonfun$apply$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$21$$anonfun$apply$9$$anonfun$apply$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$21$$anonfun$apply$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$22$$anonfun$apply$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$23.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$26$$anonfun$apply$12$$anonfun$apply$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$26$$anonfun$apply$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$27$$anonfun$apply$14$$anonfun$apply$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$27$$anonfun$apply$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$4$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$9$$anonfun$apply$3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/docs/Queries_CCG_Derivation.xlsx" afterPath="$PROJECT_DIR$/src/main/docs/Queries_CCG_Derivation.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/Date$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/Date$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/Date.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/Date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/DateRange$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/DateRange$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/DateRange.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/DateRange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/DateString$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/DateString$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/DateString.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/DateString.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/EventType.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/EventType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$11.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$13.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$14.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$15.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$16.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$17.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$18.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$19.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$2$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$2$$anonfun$apply$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$20.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$21.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$22.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$23.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$23.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$9$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$9$$anonfun$apply$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$$anonfun$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$pluralOps$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$pluralOps$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$pluralOps.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps$pluralOps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/LexiconOps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/test$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/test$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/montague_2_10_0_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/montague_2_10_0_0_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/Location$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/Location$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/Location.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/Location.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/SearchString$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/SearchString$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/SearchString.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/SearchString.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/account$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/account$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/allEventCategory$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/allEventCategory$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/allEventType$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/allEventType$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/allRole$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/allRole$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/conference$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/conference$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/corporate$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/corporate$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/global$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/global$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/group$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/group$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/listEvents$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/listEvents$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/listEvents.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/listEvents.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/organizer$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/organizer$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser$$anonfun$customParser$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser$$anonfun$customParser$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser$$anonfun$parse$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser$$anonfun$parse$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser$$anonfun$prime$parser$$parenTokenizer$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser$$anonfun$prime$parser$$parenTokenizer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/parser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/participant$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/participant$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/project$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/project$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/regression$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/regression$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/run$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/run$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/run.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/run.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/speaker$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/speaker$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/training$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/training$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/volunteer$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/volunteer$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/prime/workshop$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/prime/workshop$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/docs/.~lock.Queries_CCG_Derivation.xlsx#" afterPath="$PROJECT_DIR$/src/main/docs/.~lock.Queries_CCG_Derivation.xlsx#" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/testQueries.txt" afterPath="$PROJECT_DIR$/src/main/resources/testQueries.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/lexicon.scala" afterPath="$PROJECT_DIR$/src/main/scala/lexicon.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/parser.scala" afterPath="$PROJECT_DIR$/src/main/scala/parser.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/regress.scala" afterPath="$PROJECT_DIR$/src/main/scala/regress.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/semantics.scala" afterPath="$PROJECT_DIR$/src/main/scala/semantics.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/test.scala" afterPath="$PROJECT_DIR$/src/main/scala/test.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/testQueries.txt" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/testQueries.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,35 +121,34 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lexicon.scala" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="lexicon.scala" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/lexicon.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="27" column="165" lean-forward="false" selection-start-line="27" selection-start-column="165" selection-end-line="27" selection-end-column="165" />
+            <state relative-caret-position="198">
+              <caret line="116" column="28" lean-forward="true" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
               <folding>
                 <element signature="e#15#57#0" expanded="true" />
-                <marker date="1490191890729" expanded="false" signature="2972:3744" ph="(...)" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/ccg/package.scala">
+      <file leaf-file-name="Predef.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/lib/scala-library.jar!/scala/Predef.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="139">
+              <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/router.scala">
+      <file leaf-file-name="attributeMatcher.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/attributeMatcher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="168">
+              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
               </folding>
@@ -115,24 +156,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testQueries.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/testQueries.txt">
+      <file leaf-file-name="TokenMatcher.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/TokenMatcher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regress.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/regress.scala">
+      <file leaf-file-name="attributes.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/attributes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+            <state relative-caret-position="252">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#58#76#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,8 +181,18 @@
       <file leaf-file-name="SemanticState.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/semantics/SemanticState.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="158">
+              <caret line="49" column="78" lean-forward="true" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="semantics.scala" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/semantics.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -152,7 +202,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/test.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="e#15#43#0" expanded="true" />
               </folding>
@@ -160,21 +210,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SemanticParseResult.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/SemanticParseResult.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="parser.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/parser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="139">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="e#15#48#0" expanded="true" />
               </folding>
@@ -182,11 +222,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="semantics.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/semantics.scala">
+      <file leaf-file-name="Iterator.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/lib/scala-library.jar!/scala/collection/Iterator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="52" />
+            <state relative-caret-position="354">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -217,11 +257,14 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/syntax.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/router.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/parser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/regress.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/semantics.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/eventsAppMatcher.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/attributeMatcher.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/parser.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/testQueries.txt" />
+        <option value="$PROJECT_DIR$/src/main/scala/semantics.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/attributes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lexicon.scala" />
       </list>
     </option>
@@ -718,6 +761,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="164c94f7-ad15-4b56-84a8-c4ac0e172730" name="Default" comment="" />
@@ -792,14 +838,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.49027553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32338902" sideWeight="0.49027553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29236278" sideWeight="0.50648296" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46300715" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46658713" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -810,7 +856,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39618137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -839,8 +885,20 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/SemanticParseResult.scala</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/SemanticParseResult.scala</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -855,7 +913,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#15#57#0" expanded="true" />
-            <marker date="1490191890729" expanded="false" signature="2972:3744" ph="(...)" />
           </folding>
         </state>
       </provider>
@@ -865,7 +922,7 @@
         <state relative-caret-position="360">
           <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding>
-            <element signature="e#15#53#0" expanded="true" />
+            <element signature="e#15#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -948,38 +1005,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/lib/scala-library.jar!/scala/Predef.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/lib/scala-library.jar!/scala/AnyVal.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/cky/CkyParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/TokenMatcher.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/preProcess.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -995,16 +1024,6 @@
         <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/SemanticParseNode.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#37#72#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,38 +1043,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/SemanticParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding>
-            <element signature="e#37#70#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/semantics/SemanticState.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/ccg/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/router.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
-            <element signature="e#15#53#0" expanded="true" />
+            <element signature="e#15#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1071,26 +1064,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/semantics.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/preProcess.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="52" />
+        <state relative-caret-position="384">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/ccg/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/SemanticParseNode.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2859">
+          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/cky/CkyParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/SemanticParseResult.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="329">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#37#83#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/SemanticParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/testQueries.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="198">
+          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/semantics/SemanticState.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="49" column="78" lean-forward="true" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/lib/scala-library.jar!/scala/collection/Iterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/parser/TokenMatcher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/semantics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1098,7 +1157,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/test.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="e#15#43#0" expanded="true" />
           </folding>
@@ -1107,21 +1166,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/parser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="139">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="e#15#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/lib/scala-library.jar!/scala/Predef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/attributeMatcher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/attributes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lexicon.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="27" column="165" lean-forward="false" selection-start-line="27" selection-start-column="165" selection-end-line="27" selection-end-column="165" />
+        <state relative-caret-position="198">
+          <caret line="116" column="28" lean-forward="true" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
           <folding>
             <element signature="e#15#57#0" expanded="true" />
-            <marker date="1490191890729" expanded="false" signature="2972:3744" ph="(...)" />
           </folding>
         </state>
       </provider>

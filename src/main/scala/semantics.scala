@@ -9,15 +9,16 @@ sealed trait Statement;
 /*
  * This case class holds the definition of all the semantics that are to be mapped to JSON for events app.
  * eventType : Training,meeting,conference,workshops etc
- * role : Participant,Organizer,Creater
+ * role : Participant,Organizer,Creator
  * eventCategory : Account,Project,Global events
  * deduce : Location / Date - Optional argument
  * searchString : A fuzzy string to the backend to restrict the results - Optional argument
+ * apps : Events apps - Hub , D&I and iBelong
  */
 
 case class listEvents(eventType:EventType = allEventType,role: Role = allRole,
                       eventCategory: EventCategory = allEventCategory,location: Option[Location]=None,date:Option[DateEntity] = None,
-                      searchString:Option[SearchString] = None) extends Statement;
+                      searchString:Option[SearchString] = None,apps:Option[Apps] = None) extends Statement;
 
 case class run(command:InternalCommands) extends Statement
 
@@ -28,6 +29,11 @@ case class run(command:InternalCommands) extends Statement
 
 sealed trait Entity
 case class Location(value:String) extends Entity
+
+// When date and location are present in single query and Many other attributes are available.
+// For conditionality  purposes Date and location are combined
+// Ex. Java related events in chennai between 1st and 2nd.
+case class DateAndLocation(location: Location,dateEntity: DateEntity)
 
 /*
    case class for different forms of date that can be detected in the sentence.
@@ -57,6 +63,7 @@ case object conference extends EventType
 case object corporate extends EventType
 case object training extends EventType
 case object workshop extends EventType
+case object celebrations extends EventType
 case object allEventType extends EventType
 
 sealed trait EventCategory
@@ -68,4 +75,10 @@ case object allEventCategory extends EventCategory
 
 sealed trait InternalCommands
 case object regression extends InternalCommands
+
+sealed trait Apps
+case object  DandI extends Apps
+case object  Hubs  extends Apps
+case object  IBelong extends Apps
+
 

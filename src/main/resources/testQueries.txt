@@ -29,7 +29,7 @@ Events happening today
 conferences happening today
 recent training in java
 run regression
-List all the Java related events between 1st of March and 4th of March
+List all the Java related events between 1st and 2nd
 List all the Java related events happening this week
 what are all the cultural events scheduled this month
 what are all the work anniversary events scheduled this month
