@@ -7,8 +7,8 @@ import com.workday.montague.ccg.TerminalCat
   */
 
 case object Q extends TerminalCat { val category = "Q" }
-case object E extends TerminalCat { val category = "E" } /* Events - Custom CCG category */
-case object V extends TerminalCat { val category = "V" }
+case object V extends TerminalCat { val category = "V" } /* Category to represent all the verbs */
+case object A extends TerminalCat { val category = "A" } /* to include Apps like d&i,hub etc */
 case object O extends TerminalCat { val category = "O" } /* objects like JAVA etc*/
 case object I extends TerminalCat { val category = "I" } /* internal commands */
 

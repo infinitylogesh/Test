@@ -30,7 +30,9 @@ conferences happening today
 recent training in java
 run regression
 List all the Java related events between 1st and 2nd
+List all the D&I related events between 1st and 2nd
 List all the Java related events happening this week
+List all the D&I related events happening this week
 what are all the cultural events scheduled this month
 what are all the work anniversary events scheduled this month
 Oracle workshops in chennai
@@ -48,3 +50,5 @@ list the events i am participating in chennai
 events i am participating in this week
 events i am participating this week
 events in java
+d&i events happening on 02/03/1990
+d&i events on 02/03/1990
