@@ -77,6 +77,5 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="montague_2.10-0.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="opennlp-tools-1.7.2" level="project" />
   </component>
 </module>

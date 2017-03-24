@@ -19,8 +19,20 @@ object router {
       case Some(Form(run(x))) => x match {  // in case of run case class -> routes to run the internal command.
         case regression:regression.type => regress.renderResult();
       }
+      case Some(Form(d@listEvents(_,_,_,_,_,_,_))) => processListEvents(d)
       case _ => println(output); // TODO : Remove after usage
     }
+  }
+
+  def processListEvents(parsedOutput : listEvents) = {
+    println("Parsed value: " + parsedOutput)
+    val output = parsedOutput match {
+      case listEvents(conference,_,_,_,_,_,_) => "conference"
+      case listEvents(_,allRoles,_,_,_,_,_) => "allRoles"
+      case _ => println("others")
+    }
+
+    println(output);
   }
 
 }

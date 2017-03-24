@@ -4,7 +4,7 @@
 
 package prime
 
-import io.Source._
+import scala.io.Source._
 import scala.annotation.meta.param
 import java.util.Calendar
 import java.io._
@@ -14,7 +14,7 @@ object regress {
 
   def renderResult() = {
 
-    val lines = io.Source.fromFile("src/main/resources/testQueries.txt").getLines();
+    val lines = scala.io.Source.fromFile("src/main/resources/testQueries.txt").getLines();
     val testResults = for(line <- lines) yield(line,assertClass(line))
     val testResultsList = testResults.toList
     val summary = "Summary" + "\n" + "_______" + "\n" + testResultsList.groupBy(_._2).map(x=>(x._1,x._2.size)).toString + "\n\n" +"Result" + "\n" + "_______"
@@ -34,7 +34,7 @@ object regress {
     val output = parser.customParser(parser.parse(searchQuery))
     val out = output.map(_.semantic);
     val result = out match {
-      case Some(Form(listEvents(_,_,_,_,_,_))) => true // the semanticstate returned is always inside Form.
+      case Some(Form(listEvents(_,_,_,_,_,_,_))) => true // the semanticstate returned is always inside Form.
       case _ => false
     }
     result

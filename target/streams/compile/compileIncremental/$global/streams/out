@@ -1,0 +1,327 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/semantics.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/Matchers.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/regress.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributes.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributeMatcher.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/test.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/semantics.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/Matchers.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/regress.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributes.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributeMatcher.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/test.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/semantics.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/Matchers.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/regress.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributes.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributeMatcher.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/test.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/semantics.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/Matchers.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/regress.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributes.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributeMatcher.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/test.scala, /home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 11 sources: invalidated sources (11) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 11 Scala sources to /home/prime/IdeaProjects/PrimeSemanticSearch/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 368edaa2, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/prime/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/prime/IdeaProjects/PrimeSemanticSearch/target/scala-2.10/classes:/home/prime/.ivy2/cache/com.owlike/genson-scala_2.10/jars/genson-scala_2.10-1.4.jar:/home/prime/.ivy2/cache/com.owlike/genson/jars/genson-1.4.jar:/home/prime/.sbt/boot/scala-2.10.6/lib/scala-reflect.jar[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/Matchers.scala:3: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.parser.TokenMatcher[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributeMatcher.scala:3: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.ccg.CcgCat[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributeMatcher.scala:4: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.parser.TokenMatcher[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/attributeMatcher.scala:14: not found: type TokenMatcher[0m
+[0m[[31merror[0m] [0mcase class attributeMatcher(attribute:String) extends TokenMatcher[String]{[0m
+[0m[[31merror[0m] [0m                                                      ^[0m
+[0m[[33mwarn[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:3: imported `Entity' is permanently hidden by definition of trait Entity in package prime[0m
+[0m[[33mwarn[0m] [0mimport javax.swing.text.html.parser.Entity[0m
+[0m[[33mwarn[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:5: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.ccg.{CcgCat, NP, S, TerminalCat}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:6: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.parser.{IntegerMatcher, ParserDict}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:7: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.semantics.{λ, _}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:8: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.ccg[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:33: not found: value ParserDict[0m
+[0m[[31merror[0m] [0m  var lexicon = ParserDict[CcgCat]() +[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:75: not found: type TerminalCat[0m
+[0m[[31merror[0m] [0m      val lexeme:(String,(TerminalCat,SemanticState)) = entity match {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:75: not found: type SemanticState[0m
+[0m[[31merror[0m] [0m      val lexeme:(String,(TerminalCat,SemanticState)) = entity match {[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:76: too many arguments for method ->: (y: B)(String, B)[0m
+[0m[[31merror[0m] [0m        case d@Location(value:String) => ((value) -> (NP,Form(d):SemanticState))[0m
+[0m[[31merror[0m] [0m                                                  ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:77: too many arguments for method ->: (y: B)(String, B)[0m
+[0m[[31merror[0m] [0m        case d@DateString(value:String) => ((value) -> (NP,Form(d):SemanticState))[0m
+[0m[[31merror[0m] [0m                                                    ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:78: too many arguments for method ->: (y: B)(String, B)[0m
+[0m[[31merror[0m] [0m        case d@Date(value:String) => ((value) -> (NP,Form(d):SemanticState))[0m
+[0m[[31merror[0m] [0m                                              ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala:3: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.ccg.TerminalCat[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala:12: not found: type TerminalCat[0m
+[0m[[31merror[0m] [0mcase object O extends TerminalCat { val category = "O" } /* objects like JAVA etc*/[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:79: too many arguments for method ->: (y: B)(String, B)[0m
+[0m[[31merror[0m] [0m        case d@SearchString(value:String) => ((value) -> (O,Form(d):SemanticState))[0m
+[0m[[31merror[0m] [0m                                                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:93: not found: value NP[0m
+[0m[[31merror[0m] [0m      val lexeme = ((ev._1).s -> Seq((NP,Form(ev._2):SemanticState),[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:93: not found: type SemanticState[0m
+[0m[[31merror[0m] [0m      val lexeme = ((ev._1).s -> Seq((NP,Form(ev._2):SemanticState),[0m
+[0m[[31merror[0m] [0m                                                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:93: not found: value Form[0m
+[0m[[31merror[0m] [0m      val lexeme = ((ev._1).s -> Seq((NP,Form(ev._2):SemanticState),[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:94: not found: value S[0m
+[0m[[31merror[0m] [0m        ((S/NP),λ { location: Location  =>  listEvents(ev._2,allRole,allEventCategory,Some(location))}), // events organized by me.[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:94: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((S/NP),λ { location: Location  =>  listEvents(ev._2,allRole,allEventCategory,Some(location))}), // events organized by me.[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:95: not found: value S[0m
+[0m[[31merror[0m] [0m        ((S\NP)/NP,λ { location: Location  =>λ { searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,Some(searchString))}}), // events organized by me.[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:95: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((S\NP)/NP,λ { location: Location  =>λ { searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,Some(searchString))}}), // events organized by me.[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:96: not found: value NP[0m
+[0m[[31merror[0m] [0m        ((NP/NP),λ { n3:Role  =>  listEvents(ev._2,n3)}),[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:96: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((NP/NP),λ { n3:Role  =>  listEvents(ev._2,n3)}),[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:97: not found: value S[0m
+[0m[[31merror[0m] [0m        (((S/NP)/V/NP),λ { role:Role  => λ { dateEntity: DateEntity => listEvents(ev._2,role,allEventCategory,None,Some(dateEntity))}}),[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:97: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((S/NP)/V/NP),λ { role:Role  => λ { dateEntity: DateEntity => listEvents(ev._2,role,allEventCategory,None,Some(dateEntity))}}),[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:98: not found: value NP[0m
+[0m[[31merror[0m] [0m        ((NP\O),λ { searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,None,None,Some(searchString))}), // Ex. java events[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:98: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((NP\O),λ { searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,None,None,Some(searchString))}), // Ex. java events[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:99: not found: value NP[0m
+[0m[[31merror[0m] [0m        ((NP\A),λ { apps: Apps =>  listEvents(ev._2,allRole,allEventCategory,None,None,None,Some(apps))}), // Ex. D&I events[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:99: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((NP\A),λ { apps: Apps =>  listEvents(ev._2,allRole,allEventCategory,None,None,None,Some(apps))}), // Ex. D&I events[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:100: not found: value NP[0m
+[0m[[31merror[0m] [0m        ((NP/O),λ { searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,None,None,Some(searchString))}), // Ex. events related to java , events java[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:100: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((NP/O),λ { searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,None,None,Some(searchString))}), // Ex. events related to java , events java[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:101: not found: value NP[0m
+[0m[[31merror[0m] [0m        ((NP/A),λ { apps: Apps  =>  listEvents(ev._2,allRole,allEventCategory,None,None,None,Some(apps))}), // Ex. events related to d&i , events d&i[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:101: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((NP/A),λ { apps: Apps  =>  listEvents(ev._2,allRole,allEventCategory,None,None,None,Some(apps))}), // Ex. events related to d&i , events d&i[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:102: not found: value NP[0m
+[0m[[31merror[0m] [0m        ((NP/NP),λ {location: Location  =>  listEvents(ev._2,allRole,allEventCategory,Some(location))}), // my events in chennai[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:102: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((NP/NP),λ {location: Location  =>  listEvents(ev._2,allRole,allEventCategory,Some(location))}), // my events in chennai[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:103: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP\O)/NP),λ {location: Location =>λ {searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,Some(searchString))}}), // java events in chennai[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:103: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP\O)/NP),λ {location: Location =>λ {searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,Some(searchString))}}), // java events in chennai[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:104: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP\A)/NP),λ {location: Location =>λ {apps: Apps  =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,None,Some(apps))}}), // d&i events in chennai[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:104: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP\A)/NP),λ {location: Location =>λ {apps: Apps  =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,None,Some(apps))}}), // d&i events in chennai[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:105: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP\O)/NP),λ{ date:DateAndLocation=>λ{searchString: SearchString =>listEvents(ev._2,allRole,allEventCategory,Some(date.location),Some(date.dateEntity),Some(searchString))}}), // java events in chennai between 1st and 2nd[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:105: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP\O)/NP),λ{ date:DateAndLocation=>λ{searchString: SearchString =>listEvents(ev._2,allRole,allEventCategory,Some(date.location),Some(date.dateEntity),Some(searchString))}}), // java events in chennai between 1st and 2nd[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:106: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP\A)/NP),λ{ date:DateAndLocation=>λ{apps: Apps =>listEvents(ev._2,allRole,allEventCategory,Some(date.location),Some(date.dateEntity),None,Some(apps))}}), // d&i events in chennai between 1st and 2nd[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:106: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP\A)/NP),λ{ date:DateAndLocation=>λ{apps: Apps =>listEvents(ev._2,allRole,allEventCategory,Some(date.location),Some(date.dateEntity),None,Some(apps))}}), // d&i events in chennai between 1st and 2nd[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:107: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP\O)/NP),λ {dateEntity: DateEntity =>λ {searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,None,Some(dateEntity),Some(searchString))}}), // java events happening this week[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:107: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP\O)/NP),λ {dateEntity: DateEntity =>λ {searchString: SearchString  =>  listEvents(ev._2,allRole,allEventCategory,None,Some(dateEntity),Some(searchString))}}), // java events happening this week[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:108: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP\A)/NP),λ {dateEntity: DateEntity =>λ {apps: Apps  =>  listEvents(ev._2,allRole,allEventCategory,None,Some(dateEntity),None,Some(apps))}}), // d&i events happening this week[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:108: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP\A)/NP),λ {dateEntity: DateEntity =>λ {apps: Apps  =>  listEvents(ev._2,allRole,allEventCategory,None,Some(dateEntity),None,Some(apps))}}), // d&i events happening this week[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:109: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/O),λ {searchString: SearchString  =>λ {location: Location =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,Some(searchString))}}), // events related to java in chennai[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:109: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/O),λ {searchString: SearchString  =>λ {location: Location =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,Some(searchString))}}), // events related to java in chennai[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:110: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/A),λ {apps: Apps  =>λ {location: Location =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,None,Some(apps))}}), // events related to java in chennai[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:110: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/A),λ {apps: Apps  =>λ {location: Location =>  listEvents(ev._2,allRole,allEventCategory,Some(location),None,None,Some(apps))}}), // events related to java in chennai[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:111: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/O),λ {searchString: SearchString  =>λ {dateAndLocation: DateAndLocation =>  listEvents(ev._2,allRole,allEventCategory,Some(dateAndLocation.location),Some(dateAndLocation.dateEntity),Some(searchString))}}), // events related to java in chennai between 1st and 2nd[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:111: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/O),λ {searchString: SearchString  =>λ {dateAndLocation: DateAndLocation =>  listEvents(ev._2,allRole,allEventCategory,Some(dateAndLocation.location),Some(dateAndLocation.dateEntity),Some(searchString))}}), // events related to java in chennai between 1st and 2nd[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:112: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/A),λ {apps: Apps  =>λ {dateAndLocation: DateAndLocation =>  listEvents(ev._2,allRole,allEventCategory,Some(dateAndLocation.location),Some(dateAndLocation.dateEntity),None,Some(apps))}}), // events related to D&I in chennai between 1st and 2nd[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:112: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/A),λ {apps: Apps  =>λ {dateAndLocation: DateAndLocation =>  listEvents(ev._2,allRole,allEventCategory,Some(dateAndLocation.location),Some(dateAndLocation.dateEntity),None,Some(apps))}}), // events related to D&I in chennai between 1st and 2nd[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:113: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/O),λ {searchString: SearchString  =>λ {dateEntity: DateEntity =>  listEvents(ev._2,allRole,allEventCategory,None,Some(dateEntity),Some(searchString))}}), // events related to java this week.[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:113: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/O),λ {searchString: SearchString  =>λ {dateEntity: DateEntity =>  listEvents(ev._2,allRole,allEventCategory,None,Some(dateEntity),Some(searchString))}}), // events related to java this week.[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:114: not found: value NP[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/A),λ {apps: Apps  =>λ {dateEntity: DateEntity =>  listEvents(ev._2,allRole,allEventCategory,None,Some(dateEntity),None,Some(apps))}}), // events related to d&i this week.[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:114: not found: value λ[0m
+[0m[[31merror[0m] [0m        (((NP/NP)/A),λ {apps: Apps  =>λ {dateEntity: DateEntity =>  listEvents(ev._2,allRole,allEventCategory,None,Some(dateEntity),None,Some(apps))}}), // events related to d&i this week.[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:115: not found: value NP[0m
+[0m[[31merror[0m] [0m        ((NP/NP),λ { date:DateEntity  =>  listEvents(ev._2,allRole,allEventCategory,None,Some(date))}) // events this week[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/lexicon.scala:115: not found: value λ[0m
+[0m[[31merror[0m] [0m        ((NP/NP),λ { date:DateEntity  =>  listEvents(ev._2,allRole,allEventCategory,None,Some(date))}) // events this week[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:3: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.ccg._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:4: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.parser._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:5: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.cky.Chart[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:6: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.semantics.{λ, _}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:12: not found: type SemanticParser[0m
+[0m[[31merror[0m] [0mobject parser extends SemanticParser[CcgCat](LexiconOps.lexicon){[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:12: too many arguments for constructor Object: ()Object[0m
+[0m[[31merror[0m] [0mobject parser extends SemanticParser[CcgCat](LexiconOps.lexicon){[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:22: not found: type SemanticParseResult[0m
+[0m[[31merror[0m] [0m  def parse(str: String): SemanticParseResult[CcgCat] = parse(str, tokenizer = parenTokenizer)[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:44: not found: type SemanticParseNode[0m
+[0m[[31merror[0m] [0m  def customParser(result:SemanticParseResult[CcgCat]):Option[SemanticParseNode[CcgCat]] = {[0m
+[0m[[31merror[0m] [0m                                                              ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/parser.scala:44: not found: type SemanticParseResult[0m
+[0m[[31merror[0m] [0m  def customParser(result:SemanticParseResult[CcgCat]):Option[SemanticParseNode[CcgCat]] = {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala:5: not found: object opennlp[0m
+[0m[[31merror[0m] [0mimport opennlp.tools.cmdline.parser.ParserTool[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala:6: not found: object opennlp[0m
+[0m[[31merror[0m] [0mimport opennlp.tools.namefind.{NameFinderME, TokenNameFinderModel}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala:7: not found: object opennlp[0m
+[0m[[31merror[0m] [0mimport opennlp.tools.parser.{ParserFactory, ParserModel}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala:8: not found: object opennlp[0m
+[0m[[31merror[0m] [0mimport opennlp.tools.postag.{POSModel, POSTaggerME}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala:38: not found: type POSModel[0m
+[0m[[31merror[0m] [0m    val posModel = new POSModel(new BufferedInputStream(new FileInputStream(modelLocation)));[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala:39: not found: type POSTaggerME[0m
+[0m[[31merror[0m] [0m    val posTagger = new POSTaggerME(posModel);[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala:54: not found: type TokenNameFinderModel[0m
+[0m[[31merror[0m] [0m    val parserModel = new TokenNameFinderModel(new BufferedInputStream(new FileInputStream(modelLocation)));[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/preProcess.scala:55: not found: type NameFinderME[0m
+[0m[[31merror[0m] [0m    val parser = new NameFinderME(parserModel);[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/regress.scala:11: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.semantics.Form[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/regress.scala:37: not found: value Form[0m
+[0m[[31merror[0m] [0m      case Some(Form(listEvents(_,_,_,_,_,_,_))) => true // the semanticstate returned is always inside Form.[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:3: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.ccg.CcgCat[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:4: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.parser.SemanticParseNode[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:5: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.semantics.Form[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:6: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.semantics.SemanticState[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:16: not found: type SemanticParseNode[0m
+[0m[[31merror[0m] [0m  def route(output:Option[SemanticParseNode[CcgCat]]) = {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:19: not found: value Form[0m
+[0m[[31merror[0m] [0m      case Some(Form(run(x))) => x match {  // in case of run case class -> routes to run the internal command.[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:19: not found: value x[0m
+[0m[[31merror[0m] [0m      case Some(Form(run(x))) => x match {  // in case of run case class -> routes to run the internal command.[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:22: not found: value Form[0m
+[0m[[31merror[0m] [0m      case Some(Form(d@listEvents(_,_,_,_,_,_,_))) => processListEvents(d)[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/router.scala:22: not found: value d[0m
+[0m[[31merror[0m] [0m      case Some(Form(d@listEvents(_,_,_,_,_,_,_))) => processListEvents(d)[0m
+[0m[[31merror[0m] [0m                                                                        ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala:9: not found: type TerminalCat[0m
+[0m[[31merror[0m] [0mcase object Q extends TerminalCat { val category = "Q" }[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala:10: not found: type TerminalCat[0m
+[0m[[31merror[0m] [0mcase object V extends TerminalCat { val category = "V" } /* Category to represent all the verbs */[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala:11: not found: type TerminalCat[0m
+[0m[[31merror[0m] [0mcase object A extends TerminalCat { val category = "A" } /* to include Apps like d&i,hub etc */[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/syntax.scala:13: not found: type TerminalCat[0m
+[0m[[31merror[0m] [0mcase object I extends TerminalCat { val category = "I" } /* internal commands */[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/test.scala:4: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.ccg.{CcgCat, NP, S}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/prime/IdeaProjects/PrimeSemanticSearch/src/main/scala/test.scala:5: object workday is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.workday.montague.semantics.{Form, SemanticState, identity, λ}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[31merror[0m] [0m98 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

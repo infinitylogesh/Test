@@ -3,6 +3,12 @@ package prime
 import scala.io.Source.stdin
 import com.workday.montague.ccg.{CcgCat, NP, S}
 import com.workday.montague.semantics.{Form, SemanticState, identity, λ}
+import io.circe._, io.circe.parser._
+import io.circe.syntax._
+import io.circe.generic.auto._
+import io.circe.generic.JsonCodec
+
+
 
 
 /**
@@ -12,6 +18,14 @@ object test {
 
   def main(args: Array[String]): Unit = {
     print(">> ")
+
+    case class Person(name: String)
+    // defined class Person
+
+    case class Greeting(salutation: String, person: Person, exclamationMarks: Int)
+    // defined class Greeting
+
+
     for(line <- stdin.getLines()){
 
       val chn = Location("chennai")

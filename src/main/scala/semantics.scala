@@ -58,27 +58,66 @@ case object organizer extends Role
 case object volunteer extends Role
 case object allRole extends Role
 
-sealed trait EventType
-case object conference extends EventType
-case object corporate extends EventType
-case object training extends EventType
-case object workshop extends EventType
-case object celebrations extends EventType
-case object allEventType extends EventType
 
-sealed trait EventCategory
-case object account extends EventCategory
-case object global extends EventCategory
-case object group extends EventCategory
-case object project extends  EventCategory
-case object allEventCategory extends EventCategory
+sealed trait EventType {
+  val name : String   // Name to match the string in JSON response from service.
+}
+
+case object conference extends EventType {
+   val name = "Conference"
+}
+case object corporate extends EventType{
+  val name:String = "Corporate Events"
+}
+case object training extends EventType{
+  val name:String = "Training"
+}
+case object workshop extends EventType{
+  val name:String = "Workshop"
+}
+case object celebrations extends EventType{
+  val name:String = "Celebrations"
+}
+case object allEventType extends EventType{
+  val name:String = ""
+}
+
+sealed trait EventCategory {
+  val name:String
+}
+case object account extends EventCategory{
+  val name = "Account"
+}
+case object global extends EventCategory{
+  val name = "Global Events"
+}
+case object group extends EventCategory{
+  val name = "Group"
+}
+case object project extends  EventCategory{
+  val name = "Project"
+}
+case object allEventCategory extends EventCategory{
+  val name = ""
+}
 
 sealed trait InternalCommands
 case object regression extends InternalCommands
 
-sealed trait Apps
-case object  DandI extends Apps
-case object  Hubs  extends Apps
-case object  IBelong extends Apps
+
+
+sealed trait Apps{
+  val name : String
+}
+
+case object  DandI extends Apps{
+  val name = "D & I"
+}
+case object  Hubs  extends Apps{
+  val name = "Hub"
+}
+case object  IBelong extends Apps{
+  val name = "iBelong"
+}
 
 

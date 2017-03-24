@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="opennlp-tools-1.7.2">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/logesh/libs/apache-opennlp-1.7.2/lib/opennlp-tools-1.7.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
