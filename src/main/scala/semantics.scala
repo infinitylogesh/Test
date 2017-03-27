@@ -16,8 +16,8 @@ sealed trait Statement;
  * apps : Events apps - Hub , D&I and iBelong
  */
 
-case class listEvents(eventType:EventType = allEventType,role: Role = allRole,
-                      eventCategory: EventCategory = allEventCategory,location: Option[Location]=None,date:Option[DateEntity] = None,
+case class listEvents(eventType:Option[EventType] = None,role: Option[Role] = None,
+                      eventCategory: Option[EventCategory] = None,location: Option[Location]=None,date:Option[DateEntity] = None,
                       searchString:Option[SearchString] = None,apps:Option[Apps] = None) extends Statement;
 
 case class run(command:InternalCommands) extends Statement

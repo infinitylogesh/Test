@@ -32,7 +32,7 @@ object router {
       case _ => println("others")
     }
 
-    println(output);
+    println(output)
   }
 
 }

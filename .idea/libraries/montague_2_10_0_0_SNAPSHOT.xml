@@ -1,8 +1,7 @@
 <component name="libraryTable">
   <library name="montague_2.10-0.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/logesh/libs/montague_2.10-0.0-SNAPSHOT.jar!/" />
-      <root url="jar://$USER_HOME$/logesh/libs/apache-opennlp-1.7.2/lib/opennlp-tools-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../montague_2.10-0.0-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
