@@ -1,4 +1,4 @@
-[info] Updating {file:/Volumes/D/TCS/NLP/PrimeSemanticSearch/project/}primesemanticsearch-build...
+[info] Updating {file:/home/prime/IdeaProjects/PrimeSemanticSearch/project/}primesemanticsearch-build...
 [debug] :: resolving dependencies :: default#primesemanticsearch-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6074,19 +6074,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 5069ms :: artifacts dl 144ms
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT compile produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-compile.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT runtime produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-runtime.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT test produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-test.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT provided produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-provided.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT optional produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-optional.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT compile-internal produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-compile-internal.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT runtime-internal produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-runtime-internal.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT test-internal produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-test-internal.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT plugin produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-plugin.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT sources produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-sources.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT docs produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-docs.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT pom produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-pom.xml
-[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT scala-tool produced in /Volumes/D/TCS/NLP/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-scala-tool.xml
-[debug] 	resolve done (5069ms resolve - 144ms download)
+[debug] :: resolution report :: resolve 2197ms :: artifacts dl 45ms
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT compile produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-compile.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT runtime produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-runtime.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT test produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-test.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT provided produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-provided.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT optional produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-optional.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT compile-internal produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-compile-internal.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT runtime-internal produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-runtime-internal.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT test-internal produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-test-internal.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT plugin produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-plugin.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT sources produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-sources.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT docs produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-docs.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT pom produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-pom.xml
+[debug] 	report for default#primesemanticsearch-build;0.1-SNAPSHOT scala-tool produced in /home/prime/IdeaProjects/PrimeSemanticSearch/project/target/resolution-cache/reports/default-primesemanticsearch-build-scala-tool.xml
+[debug] 	resolve done (2197ms resolve - 45ms download)
 [info] Done updating.

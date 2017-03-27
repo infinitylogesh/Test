@@ -7,184 +7,184 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170326191640"/>
+		date="20170327095737"/>
 	<dependencies>
 		<module organisation="io.circe" name="circe-generic-extras_2.10">
-			<revision name="0.7.0" status="release" pubdate="20170117215551" resolver="public" artresolver="public" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+			<revision name="0.7.0" status="release" pubdate="20170117215551" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2599" time="1035" location="/Users/logesh/.ivy2/cache/io.circe/circe-generic-extras_2.10/ivy-0.7.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/io.circe/circe-generic-extras_2.10/ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-generic-extras_2.10/0.7.0/circe-generic-extras_2.10-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3566" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-generic-extras_2.10/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-generic-extras_2.10/0.7.0/circe-generic-extras_2.10-0.7.0.pom"/>
 				<caller organisation="default" name="primesemanticsearch_2.10" conf="compile-internal, compile, provided, optional" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="circe-generic-extras_2.10" type="jar" ext="jar" status="successful" details="" size="107436" time="1128" location="/Users/logesh/.ivy2/cache/io.circe/circe-generic-extras_2.10/jars/circe-generic-extras_2.10-0.7.0.jar">
+					<artifact name="circe-generic-extras_2.10" type="jar" ext="jar" status="no" details="" size="107436" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-generic-extras_2.10/jars/circe-generic-extras_2.10-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-generic-extras_2.10/0.7.0/circe-generic-extras_2.10-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-parser_2.10">
-			<revision name="0.7.0" status="release" pubdate="20170117215602" resolver="public" artresolver="public" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+			<revision name="0.7.0" status="release" pubdate="20170117215602" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1955" time="1087" location="/Users/logesh/.ivy2/cache/io.circe/circe-parser_2.10/ivy-0.7.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/io.circe/circe-parser_2.10/ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.10/0.7.0/circe-parser_2.10-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3079" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-parser_2.10/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.10/0.7.0/circe-parser_2.10-0.7.0.pom"/>
 				<caller organisation="default" name="primesemanticsearch_2.10" conf="compile-internal, compile, provided, optional" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="circe-parser_2.10" type="jar" ext="jar" status="successful" details="" size="2691" time="1225" location="/Users/logesh/.ivy2/cache/io.circe/circe-parser_2.10/jars/circe-parser_2.10-0.7.0.jar">
+					<artifact name="circe-parser_2.10" type="jar" ext="jar" status="no" details="" size="2691" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-parser_2.10/jars/circe-parser_2.10-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.10/0.7.0/circe-parser_2.10-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-jawn_2.10">
-			<revision name="0.7.0" status="release" pubdate="20170117215528" resolver="public" artresolver="public" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+			<revision name="0.7.0" status="release" pubdate="20170117215528" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1957" time="1173" location="/Users/logesh/.ivy2/cache/io.circe/circe-jawn_2.10/ivy-0.7.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/io.circe/circe-jawn_2.10/ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.10/0.7.0/circe-jawn_2.10-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3081" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-jawn_2.10/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.10/0.7.0/circe-jawn_2.10-0.7.0.pom"/>
 				<caller organisation="io.circe" name="circe-parser_2.10" conf="default, compile, runtime, master" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="circe-jawn_2.10" type="jar" ext="jar" status="successful" details="" size="12156" time="1092" location="/Users/logesh/.ivy2/cache/io.circe/circe-jawn_2.10/jars/circe-jawn_2.10-0.7.0.jar">
+					<artifact name="circe-jawn_2.10" type="jar" ext="jar" status="no" details="" size="12156" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-jawn_2.10/jars/circe-jawn_2.10-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.10/0.7.0/circe-jawn_2.10-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.spire-math" name="jawn-parser_2.10">
-			<revision name="0.10.4" status="release" pubdate="20161113092948" resolver="public" artresolver="public" homepage="http://github.com/non/jawn" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+			<revision name="0.10.4" status="release" pubdate="20161113092948" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
-				<metadata-artifact status="successful" details="" size="1823" time="900" location="/Users/logesh/.ivy2/cache/org.spire-math/jawn-parser_2.10/ivy-0.10.4.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/org.spire-math/jawn-parser_2.10/ivy-0.10.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.10/0.10.4/jawn-parser_2.10-0.10.4.pom"/>
+				<metadata-artifact status="no" details="" size="2879" time="0" location="/home/prime/.ivy2/cache/org.spire-math/jawn-parser_2.10/ivy-0.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.10/0.10.4/jawn-parser_2.10-0.10.4.pom"/>
 				<caller organisation="io.circe" name="circe-jawn_2.10" conf="compile, runtime" rev="0.10.4" rev-constraint-default="0.10.4" rev-constraint-dynamic="0.10.4" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="jawn-parser_2.10" type="jar" ext="jar" status="successful" details="" size="83254" time="1245" location="/Users/logesh/.ivy2/cache/org.spire-math/jawn-parser_2.10/jars/jawn-parser_2.10-0.10.4.jar">
+					<artifact name="jawn-parser_2.10" type="jar" ext="jar" status="no" details="" size="83254" time="0" location="/home/prime/.ivy2/cache/org.spire-math/jawn-parser_2.10/jars/jawn-parser_2.10-0.10.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.10/0.10.4/jawn-parser_2.10-0.10.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-generic_2.10">
-			<revision name="0.7.0" status="release" pubdate="20170117215544" resolver="public" artresolver="public" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="11">
+			<revision name="0.7.0" status="release" pubdate="20170117215544" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="11">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2750" time="900" location="/Users/logesh/.ivy2/cache/io.circe/circe-generic_2.10/ivy-0.7.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/io.circe/circe-generic_2.10/ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.10/0.7.0/circe-generic_2.10-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3686" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-generic_2.10/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.10/0.7.0/circe-generic_2.10-0.7.0.pom"/>
 				<caller organisation="default" name="primesemanticsearch_2.10" conf="compile-internal, compile, provided, optional" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0"/>
 				<caller organisation="io.circe" name="circe-generic-extras_2.10" conf="default, compile, runtime, master" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="circe-generic_2.10" type="jar" ext="jar" status="successful" details="" size="170892" time="1123" location="/Users/logesh/.ivy2/cache/io.circe/circe-generic_2.10/jars/circe-generic_2.10-0.7.0.jar">
+					<artifact name="circe-generic_2.10" type="jar" ext="jar" status="no" details="" size="170892" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-generic_2.10/jars/circe-generic_2.10-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.10/0.7.0/circe-generic_2.10-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.chuusai" name="shapeless_2.10">
-			<revision name="2.3.2" status="release" pubdate="20160818171932" resolver="public" artresolver="public" homepage="https://github.com/milessabin/shapeless" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+			<revision name="2.3.2" status="release" pubdate="20160818171932" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2467" time="978" location="/Users/logesh/.ivy2/cache/com.chuusai/shapeless_2.10/ivy-2.3.2.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/com.chuusai/shapeless_2.10/ivy-2.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.10/2.3.2/shapeless_2.10-2.3.2.pom"/>
+				<metadata-artifact status="no" details="" size="3376" time="0" location="/home/prime/.ivy2/cache/com.chuusai/shapeless_2.10/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.10/2.3.2/shapeless_2.10-2.3.2.pom"/>
 				<caller organisation="io.circe" name="circe-generic_2.10" conf="default, compile, runtime, master" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="shapeless_2.10" type="bundle" ext="jar" status="successful" details="" size="3556792" time="3404" location="/Users/logesh/.ivy2/cache/com.chuusai/shapeless_2.10/bundles/shapeless_2.10-2.3.2.jar">
+					<artifact name="shapeless_2.10" type="bundle" ext="jar" status="no" details="" size="3556792" time="0" location="/home/prime/.ivy2/cache/com.chuusai/shapeless_2.10/bundles/shapeless_2.10-2.3.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.10/2.3.2/shapeless_2.10-2.3.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-core_2.10">
-			<revision name="0.7.0" status="release" pubdate="20170117215506" resolver="public" artresolver="public" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+			<revision name="0.7.0" status="release" pubdate="20170117215506" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1956" time="1133" location="/Users/logesh/.ivy2/cache/io.circe/circe-core_2.10/ivy-0.7.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/io.circe/circe-core_2.10/ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-core_2.10/0.7.0/circe-core_2.10-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3080" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-core_2.10/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-core_2.10/0.7.0/circe-core_2.10-0.7.0.pom"/>
 				<caller organisation="default" name="primesemanticsearch_2.10" conf="compile-internal, compile, provided, optional" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0"/>
 				<caller organisation="io.circe" name="circe-generic_2.10" conf="default, compile, runtime, master" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.0"/>
 				<caller organisation="io.circe" name="circe-jawn_2.10" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.0"/>
 				<caller organisation="io.circe" name="circe-parser_2.10" conf="default, compile, runtime, master" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="circe-core_2.10" type="jar" ext="jar" status="successful" details="" size="841580" time="2659" location="/Users/logesh/.ivy2/cache/io.circe/circe-core_2.10/jars/circe-core_2.10-0.7.0.jar">
+					<artifact name="circe-core_2.10" type="jar" ext="jar" status="no" details="" size="841580" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-core_2.10/jars/circe-core_2.10-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-core_2.10/0.7.0/circe-core_2.10-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="cats-core_2.10">
-			<revision name="0.9.0" status="release" pubdate="20170116045334" resolver="public" artresolver="public" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+			<revision name="0.9.0" status="release" pubdate="20170116045334" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
-				<metadata-artifact status="successful" details="" size="4592" time="1138" location="/Users/logesh/.ivy2/cache/org.typelevel/cats-core_2.10/ivy-0.9.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/org.typelevel/cats-core_2.10/ivy-0.9.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.10/0.9.0/cats-core_2.10-0.9.0.pom"/>
+				<metadata-artifact status="no" details="" size="3494" time="0" location="/home/prime/.ivy2/cache/org.typelevel/cats-core_2.10/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.10/0.9.0/cats-core_2.10-0.9.0.pom"/>
 				<caller organisation="io.circe" name="circe-core_2.10" conf="default, compile, runtime, master" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="cats-core_2.10" type="jar" ext="jar" status="successful" details="" size="3444541" time="3399" location="/Users/logesh/.ivy2/cache/org.typelevel/cats-core_2.10/jars/cats-core_2.10-0.9.0.jar">
+					<artifact name="cats-core_2.10" type="jar" ext="jar" status="no" details="" size="3444541" time="0" location="/home/prime/.ivy2/cache/org.typelevel/cats-core_2.10/jars/cats-core_2.10-0.9.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.10/0.9.0/cats-core_2.10-0.9.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="cats-kernel_2.10">
-			<revision name="0.9.0" status="release" pubdate="20170116045313" resolver="public" artresolver="public" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+			<revision name="0.9.0" status="release" pubdate="20170116045313" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
-				<metadata-artifact status="successful" details="" size="3665" time="883" location="/Users/logesh/.ivy2/cache/org.typelevel/cats-kernel_2.10/ivy-0.9.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/org.typelevel/cats-kernel_2.10/ivy-0.9.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.10/0.9.0/cats-kernel_2.10-0.9.0.pom"/>
+				<metadata-artifact status="no" details="" size="2777" time="0" location="/home/prime/.ivy2/cache/org.typelevel/cats-kernel_2.10/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.10/0.9.0/cats-kernel_2.10-0.9.0.pom"/>
 				<caller organisation="org.typelevel" name="cats-core_2.10" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.9.0"/>
 				<artifacts>
-					<artifact name="cats-kernel_2.10" type="jar" ext="jar" status="successful" details="" size="4092731" time="3645" location="/Users/logesh/.ivy2/cache/org.typelevel/cats-kernel_2.10/jars/cats-kernel_2.10-0.9.0.jar">
+					<artifact name="cats-kernel_2.10" type="jar" ext="jar" status="no" details="" size="4092731" time="0" location="/home/prime/.ivy2/cache/org.typelevel/cats-kernel_2.10/jars/cats-kernel_2.10-0.9.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.10/0.9.0/cats-kernel_2.10-0.9.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="cats-macros_2.10">
-			<revision name="0.9.0" status="release" pubdate="20170116045236" resolver="public" artresolver="public" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+			<revision name="0.9.0" status="release" pubdate="20170116045236" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
-				<metadata-artifact status="successful" details="" size="4028" time="903" location="/Users/logesh/.ivy2/cache/org.typelevel/cats-macros_2.10/ivy-0.9.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/org.typelevel/cats-macros_2.10/ivy-0.9.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.10/0.9.0/cats-macros_2.10-0.9.0.pom"/>
+				<metadata-artifact status="no" details="" size="3078" time="0" location="/home/prime/.ivy2/cache/org.typelevel/cats-macros_2.10/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.10/0.9.0/cats-macros_2.10-0.9.0.pom"/>
 				<caller organisation="org.typelevel" name="cats-core_2.10" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.9.0"/>
 				<artifacts>
-					<artifact name="cats-macros_2.10" type="jar" ext="jar" status="successful" details="" size="6511" time="1001" location="/Users/logesh/.ivy2/cache/org.typelevel/cats-macros_2.10/jars/cats-macros_2.10-0.9.0.jar">
+					<artifact name="cats-macros_2.10" type="jar" ext="jar" status="no" details="" size="6511" time="0" location="/home/prime/.ivy2/cache/org.typelevel/cats-macros_2.10/jars/cats-macros_2.10-0.9.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.10/0.9.0/cats-macros_2.10-0.9.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="machinist_2.10">
-			<revision name="0.6.1" status="release" pubdate="20161029204401" resolver="public" artresolver="public" homepage="http://github.com/typelevel/machinist" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+			<revision name="0.6.1" status="release" pubdate="20161029204401" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
-				<metadata-artifact status="successful" details="" size="1780" time="972" location="/Users/logesh/.ivy2/cache/org.typelevel/machinist_2.10/ivy-0.6.1.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/org.typelevel/machinist_2.10/ivy-0.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.10/0.6.1/machinist_2.10-0.6.1.pom"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/home/prime/.ivy2/cache/org.typelevel/machinist_2.10/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.10/0.6.1/machinist_2.10-0.6.1.pom"/>
 				<caller organisation="org.typelevel" name="cats-macros_2.10" conf="compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.9.0"/>
 				<caller organisation="org.typelevel" name="cats-core_2.10" conf="compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.9.0"/>
 				<artifacts>
-					<artifact name="machinist_2.10" type="jar" ext="jar" status="successful" details="" size="32325" time="1053" location="/Users/logesh/.ivy2/cache/org.typelevel/machinist_2.10/jars/machinist_2.10-0.6.1.jar">
+					<artifact name="machinist_2.10" type="jar" ext="jar" status="no" details="" size="32325" time="0" location="/home/prime/.ivy2/cache/org.typelevel/machinist_2.10/jars/machinist_2.10-0.6.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.10/0.6.1/machinist_2.10-0.6.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.github.mpilquist" name="simulacrum_2.10">
-			<revision name="0.10.0" status="release" pubdate="20161020071626" resolver="public" artresolver="public" homepage="http://github.com/mpilquist/simulacrum" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+			<revision name="0.10.0" status="release" pubdate="20161020071626" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="Three-clause BSD-style" url="https://github.com/mpilquist/simulacrum/blob/master/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="2249" time="1070" location="/Users/logesh/.ivy2/cache/com.github.mpilquist/simulacrum_2.10/ivy-0.10.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/com.github.mpilquist/simulacrum_2.10/ivy-0.10.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.10/0.10.0/simulacrum_2.10-0.10.0.pom"/>
+				<metadata-artifact status="no" details="" size="3290" time="0" location="/home/prime/.ivy2/cache/com.github.mpilquist/simulacrum_2.10/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.10/0.10.0/simulacrum_2.10-0.10.0.pom"/>
 				<caller organisation="org.typelevel" name="cats-macros_2.10" conf="compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.9.0"/>
 				<caller organisation="org.typelevel" name="cats-core_2.10" conf="compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.9.0"/>
 				<artifacts>
-					<artifact name="simulacrum_2.10" type="jar" ext="jar" status="successful" details="" size="147586" time="944" location="/Users/logesh/.ivy2/cache/com.github.mpilquist/simulacrum_2.10/jars/simulacrum_2.10-0.10.0.jar">
+					<artifact name="simulacrum_2.10" type="jar" ext="jar" status="no" details="" size="147586" time="0" location="/home/prime/.ivy2/cache/com.github.mpilquist/simulacrum_2.10/jars/simulacrum_2.10-0.10.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.10/0.10.0/simulacrum_2.10-0.10.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="macro-compat_2.10">
-			<revision name="1.1.1" status="release" pubdate="20160215162020" resolver="public" artresolver="public" homepage="https://github.com/milessabin/macro-compat" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+			<revision name="1.1.1" status="release" pubdate="20160215162020" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2096" time="949" location="/Users/logesh/.ivy2/cache/org.typelevel/macro-compat_2.10/ivy-1.1.1.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/org.typelevel/macro-compat_2.10/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.10/1.1.1/macro-compat_2.10-1.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="3114" time="0" location="/home/prime/.ivy2/cache/org.typelevel/macro-compat_2.10/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.10/1.1.1/macro-compat_2.10-1.1.1.pom"/>
 				<caller organisation="io.circe" name="circe-generic_2.10" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.7.0"/>
 				<caller organisation="io.circe" name="circe-generic-extras_2.10" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.7.0"/>
 				<caller organisation="com.chuusai" name="shapeless_2.10" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.2"/>
 				<caller organisation="com.github.mpilquist" name="simulacrum_2.10" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.10.0"/>
 				<artifacts>
-					<artifact name="macro-compat_2.10" type="jar" ext="jar" status="successful" details="" size="158172" time="1147" location="/Users/logesh/.ivy2/cache/org.typelevel/macro-compat_2.10/jars/macro-compat_2.10-1.1.1.jar">
+					<artifact name="macro-compat_2.10" type="jar" ext="jar" status="no" details="" size="158172" time="0" location="/home/prime/.ivy2/cache/org.typelevel/macro-compat_2.10/jars/macro-compat_2.10-1.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.10/1.1.1/macro-compat_2.10-1.1.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalamacros" name="quasiquotes_2.10">
-			<revision name="2.1.0" status="release" pubdate="20151119214126" resolver="public" artresolver="public" homepage="https://github.com/scalamacros/paradise" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+			<revision name="2.1.0" status="release" pubdate="20151119214126" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalamacros/paradise" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
-				<metadata-artifact status="successful" details="" size="1841" time="941" location="/Users/logesh/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.1.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom"/>
+				<metadata-artifact status="no" details="" size="2868" time="0" location="/home/prime/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom"/>
 				<caller organisation="io.circe" name="circe-generic_2.10" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.7.0"/>
 				<caller organisation="io.circe" name="circe-generic-extras_2.10" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.7.0"/>
 				<caller organisation="org.typelevel" name="macro-compat_2.10" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="1.1.1"/>
 				<caller organisation="com.chuusai" name="shapeless_2.10" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.3.2"/>
 				<caller organisation="com.github.mpilquist" name="simulacrum_2.10" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.10.0"/>
 				<artifacts>
-					<artifact name="quasiquotes_2.10" type="jar" ext="jar" status="successful" details="" size="720702" time="1399" location="/Users/logesh/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.1.0.jar">
+					<artifact name="quasiquotes_2.10" type="jar" ext="jar" status="no" details="" size="720702" time="0" location="/home/prime/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.1.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -193,23 +193,23 @@
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.10.6" status="release" pubdate="20150918150538" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
-				<metadata-artifact status="no" details="" size="2647" time="0" location="/Users/logesh/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6.pom"/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/home/prime/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6.pom"/>
 				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="2.1.0"/>
 				<caller organisation="org.typelevel" name="machinist_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.6.1"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3206180" time="0" location="/Users/logesh/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.6.jar">
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3206180" time="0" location="/home/prime/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.6.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-numbers_2.10">
-			<revision name="0.7.0" status="release" pubdate="20170117215455" resolver="public" artresolver="public" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+			<revision name="0.7.0" status="release" pubdate="20170117215455" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2033" time="1086" location="/Users/logesh/.ivy2/cache/io.circe/circe-numbers_2.10/ivy-0.7.0.xml" searched="true" original-local-location="/Users/logesh/.ivy2/cache/io.circe/circe-numbers_2.10/ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.10/0.7.0/circe-numbers_2.10-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3047" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-numbers_2.10/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.10/0.7.0/circe-numbers_2.10-0.7.0.pom"/>
 				<caller organisation="io.circe" name="circe-core_2.10" conf="default, compile, runtime, master" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="circe-numbers_2.10" type="jar" ext="jar" status="successful" details="" size="15430" time="1226" location="/Users/logesh/.ivy2/cache/io.circe/circe-numbers_2.10/jars/circe-numbers_2.10-0.7.0.jar">
+					<artifact name="circe-numbers_2.10" type="jar" ext="jar" status="no" details="" size="15430" time="0" location="/home/prime/.ivy2/cache/io.circe/circe-numbers_2.10/jars/circe-numbers_2.10-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.10/0.7.0/circe-numbers_2.10-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -218,7 +218,7 @@
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.10.6" status="release" pubdate="20150918150528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
-				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/logesh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/prime/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
 				<caller organisation="org.spire-math" name="jawn-parser_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.10.4"/>
 				<caller organisation="io.circe" name="circe-generic_2.10" conf="default, compile, runtime, master" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.7.0"/>
 				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="2.1.0"/>
@@ -237,7 +237,7 @@
 				<caller organisation="com.github.mpilquist" name="simulacrum_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.10.0"/>
 				<caller organisation="org.typelevel" name="machinist_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.6.1"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/Users/logesh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/home/prime/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>
 					</artifact>
 				</artifacts>

@@ -18,7 +18,7 @@ sealed trait Statement;
 
 case class listEvents(eventType:Option[EventType] = None,role: Option[Role] = None,
                       eventCategory: Option[EventCategory] = None,location: Option[Location]=None,date:Option[DateEntity] = None,
-                      searchString:Option[SearchString] = None,apps:Option[Apps] = None) extends Statement;
+                      searchString:Option[SearchString] = None,apps:Option[Apps] = None) extends Statement
 
 case class run(command:InternalCommands) extends Statement
 
@@ -28,7 +28,11 @@ case class run(command:InternalCommands) extends Statement
 * */
 
 sealed trait Entity
-case class Location(value:String) extends Entity
+
+// TODO : Need to support Country level too.
+case class Location(value:String) extends Entity{
+  val name:String = "cities"
+}
 
 // When date and location are present in single query and Many other attributes are available.
 // For conditionality  purposes Date and location are combined
