@@ -12,12 +12,13 @@ object router {
 
   var completeFilterData:Array[jsonOps.filterData] = Array()
   var query = "@all" // Default query
-  var primeEventsFinalQuery:jsonOps.primeEventsJson = jsonOps.primeEventsJson(query,0,10,Array(),false)
+  var primeEventsDefaultCaseClass:jsonOps.primeEventsJson = jsonOps.primeEventsJson(query,0,10,Array(),false)
+  var primeEventsFinalCaseClass:jsonOps.primeEventsJson = primeEventsDefaultCaseClass
 
   /*
   *  routes to the required functions based on the Semantic state.
   * */
-  def route(output:Option[SemanticParseNode[CcgCat]]) = {
+  def route(output:Option[SemanticParseNode[CcgCat]]):Unit = {
     val semanticState = output.map(_.semantic)
     semanticState match {
       case Some(Form(run(x))) => x match {  // in case of run case class -> routes to run the internal command.
@@ -31,16 +32,17 @@ object router {
 
   /* Function to reset variables after a JSON request is generated */
 
-  def resetVariables() = {
+  def resetVariables():Unit = {
     completeFilterData = Array()
     query = "@all"
-    primeEventsFinalQuery = jsonOps.primeEventsJson(query,0,10,Array(),false)
+    primeEventsDefaultCaseClass = jsonOps.primeEventsJson(query,0,10,Array(),false)
+    primeEventsFinalCaseClass = primeEventsDefaultCaseClass
   }
 
   /* Final query is composed using the query public query variable and final filterdata  array accumulated from case class*/
-  def composeFinalQuery() = {
-    primeEventsFinalQuery = primeEventsFinalQuery.copy(query=query,filterData=completeFilterData);
-    println(jsonOps.convertToJson(primeEventsFinalQuery))
+  def composeFinalQuery():Unit = {
+    primeEventsFinalCaseClass = primeEventsDefaultCaseClass.copy(query=query,filterData=completeFilterData);
+    displayOutput.show(jsonOps.convertToJson(primeEventsFinalCaseClass))
     resetVariables()
   }
 
@@ -55,7 +57,7 @@ object router {
   }
 
 
-  def processListEvents(parsedOutput : listEvents) = {
+  def processListEvents(parsedOutput : listEvents):Unit = {
 
     println("Parsed value: " + parsedOutput)
 

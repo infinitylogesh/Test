@@ -36,17 +36,14 @@ object jsonOps {
   /* Complete query to primeEvents search */
   case class primeEventsJson(query:String,offset:Int=0,limit:Int=10,filterData:Array[filterData],pastEvents:Boolean=false,sortBy:String="relevance") extends eventsAppQuery
 
-  val sample:options = this.options(Some(39),None,Some("Conference"),None,selected = None)
-  val filter:filterData = filterData(None,"Event Type","EventType","single",Array(sample),Some(false),Some(false))
-  val primeEvent:primeEventsJson = primeEventsJson("@all",0,10,Array(filter),pastEvents = false)
-
+  /* implicit decoder for filterData */
   implicit val decoderFilterData:Decoder[filterData] = Decoder.forProduct7("id","displayName","name","type","options","notDeletable","notApplicable")(filterData.apply)
 
   setFilterDataFromJson()
 
   // TODO : Refactor this function after JSON variables are converted to REST queries.
 
-  def setFilterDataFromJson() = {
+  def setFilterDataFromJson():Unit = {
     List(filterJson,citiesJson).foreach(json => {
       val output = parse(json).right.get.\\("filterList")(0).as[Array[filterData]].right.get
       output.foreach(o=>{
@@ -55,11 +52,11 @@ object jsonOps {
     })
   }
 
-  def handleType(str:String) = {
+  def handleType(str:String):String = {
     str.replace("\"Type\":","\"type\":")
   }
 
-  def convertToJson(jsonRequest:primeEventsJson) = {
+  def convertToJson(jsonRequest:primeEventsJson):String = {
     handleType(jsonRequest.asJson.noSpaces.toString)
   }
 

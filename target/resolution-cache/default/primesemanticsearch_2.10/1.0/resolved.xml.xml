@@ -4,7 +4,7 @@
 		module="primesemanticsearch_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170327095737"
+		publication="20170328153526"
 	>
 		<description>
 		PrimeSemanticSearch
@@ -39,6 +39,7 @@
 		<dependency org="io.circe" name="circe-generic_2.10" rev="0.7.0" conf="compile->default(compile)"/>
 		<dependency org="io.circe" name="circe-parser_2.10" rev="0.7.0" conf="compile->default(compile)"/>
 		<dependency org="io.circe" name="circe-generic-extras_2.10" rev="0.7.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ws_2.10" rev="2.4.11" conf="compile->default(compile)"/>
 		<dependency org="org.scalamacros" name="paradise_2.10.6" rev="2.1.0" conf="plugin->default(compile)"/>
 	</dependencies>
 </ivy-module>

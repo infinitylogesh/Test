@@ -16,4 +16,9 @@ object attributes {
   val primeObjects = Seq("java","oracle")
   // Map to hold all the attributes with name.
   val attributesMap = Map("apps" -> eventsApps,"objects" -> primeObjects)
+  val primeLogInUri = "https://platformprimebeta.ultimatix.net/api/auth/entry"
+  val primeEventsSearchUri = "https://platformprimebeta.ultimatix.net/api/search/primeEvents"
+  val httpUser = "132291"
+  val httpUserPassword = "Platform"
+
 }

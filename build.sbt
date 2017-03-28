@@ -15,6 +15,8 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic-extras"
 ).map(_ % circeVersion)
 
+libraryDependencies += "com.typesafe.play" % "play-ws_2.10" % "2.4.11"
+
 addCompilerPlugin(
   "org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full
 )
