@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="joda-time-2.9-sources">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/logesh/libs/stanford-corenlp-full-2016-10-31/joda-time.jar!/" />
+      <root url="jar://$USER_HOME$/logesh/libs/stanford-corenlp-full-2016-10-31/jollyday.jar!/" />
+      <root url="jar://$USER_HOME$/logesh/libs/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/logesh/libs/stanford-corenlp-full-2016-10-31/joda-time-2.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/logesh/libs/stanford-corenlp-full-2016-10-31/jollyday-0.4.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/logesh/libs/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

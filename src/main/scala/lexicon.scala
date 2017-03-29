@@ -44,7 +44,7 @@ object LexiconOps {
               (Seq("related") ->Seq(((NP\NP)\NP,identity),((NP\NP),identity),((NP\O),identity))) +
               (Seq("list all the","list the") ->(S/NP,identity)) +
               (Seq("are") ->(NP\NP,identity)) +
-              (Seq("and") ->((NP\NP)/NP,λ {d1:Date =>λ {d2:Date =>DateRange(d1,d2)}})) +
+              (Seq("and") ->((NP\NP)/NP,λ {d1:DateString =>λ {d2:DateString =>DateRange(d1,d2)}})) +
               (Seq("happening") ->Seq((NP\NP,identity),
                                       (NP/NP,identity))) +
               (Seq("between") -> Seq((((NP\NP)/NP),λ { dateRange:DateEntity => λ { location:Location => λ { eventType:Option[EventType] => listEvents(eventType,None,None,Some(location),Some(dateRange))}}}),
@@ -75,7 +75,7 @@ object LexiconOps {
       val lexeme:(String,(TerminalCat,SemanticState)) = entity match {
         case d@Location(value:String) => ((value) -> (NP,Form(d):SemanticState))
         case d@DateString(value:String) => ((value) -> (NP,Form(d):SemanticState))
-        case d@Date(value:String) => ((value) -> (NP,Form(d):SemanticState))
+     //   case d@Date(value:String) => ((value) -> (NP,Form(d):SemanticState))
         case d@SearchString(value:String) => ((value) -> (O,Form(d):SemanticState))
       }
     this.lexicon+=lexeme

@@ -11,4 +11,5 @@
     </root>
 
     <logger name="com.ning.http.client" level="WARN"/>
+    <logger name="edu.stanford.nlp" level="WARN"/>
 </configuration>

@@ -12,6 +12,7 @@ import play.api.libs.json._
 import scala.concurrent.Future
 import play.api.libs.concurrent.Execution.Implicits._
 import java.util.Calendar
+import scala.util.{Success,Failure}
 
 class HTTPClient {
 
@@ -22,6 +23,7 @@ class HTTPClient {
   private var user:String = ""
   private var password:String = ""
   private var lastLoggedInTime:BigInt = 0L
+  var isLoggedIn = false
 
   /*
   * Initializes the play ws standalone client with default ningAsyncHttpClient
@@ -53,9 +55,9 @@ class HTTPClient {
   *  Uri and JSON body is passed as string
   * */
   def postRequest(uri:String,jsonString:String) : Future[WSResponse] = {
-    var headersData:(String,String) = ("","")
-    if(jSessionID.nonEmpty && user.nonEmpty){
-      headersData = "Cookie" -> s"JSESSIONID=$jSessionID;CSM_USER=$user"
+
+    if(isLoggedIn){
+      var headersData = "Cookie" -> s"JSESSIONID=$jSessionID;CSM_USER=$user"
       ws.url(uri).withHeaders(headersData).post(Json.parse(jsonString))
     }else{ // in case of login Post request
       ws.url(uri).post(Json.parse(jsonString))
@@ -71,21 +73,24 @@ class HTTPClient {
   *  Gets the user and password and logs into the prime service using Post request and sets the sessionID
   *  if the response is successful.
   * */
+  @throws(classOf[Exception])
   def primeLogIn(user:String = user,password:String = password) = {
     val authJson = s"""{"employeeAuth":{"employeeNumber":"$user","password":"$password"}}"""
    // if(getTimeStamp - lastLoggedInTime > 300000) { // if last log in is more than 5 mins.
       val wsResponse = postRequest(attributes.primeLogInUri, authJson)
-      wsResponse.onComplete(res => {
-        val response = res.getOrElse(throw new Exception("Log in to prime failed"))
-        if (response.validateSuccess) {
-          print(response.cookie("JSESSIONID"))
-          setSessionID(response.cookie("JSESSIONID").get)
-          lastLoggedInTime = getTimeStamp
-          println("Logged In")
-        } else {
-          throw new Exception("Log in to prime failed")
+      wsResponse.onComplete{
+        case Success(response) =>{
+          if (response.validateSuccess) {
+            setSessionID(response.cookie("JSESSIONID").get)
+            isLoggedIn = true
+            //lastLoggedInTime = getTimeStamp
+            println("Log: Logged In")
+          } else {
+            throw new Exception("Log in to prime failed")
+          }
         }
-      })
+        case Failure(t) => throw new Exception("Log in to prime failed" + t.getMessage)
+      }
   }
 
   def getTimeStamp:BigInt = Calendar.getInstance().getTimeInMillis
@@ -93,6 +98,7 @@ class HTTPClient {
   // implicit function to check if wsResponse is successful.
   implicit class wsResponseOps(response:WSResponse){
     def validateSuccess = (response.status == 200)
+    def unauthorized = (response.status == 401)
   }
 
 }

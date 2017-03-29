@@ -4,6 +4,8 @@ import com.workday.montague.ccg.CcgCat
 import com.workday.montague.parser.SemanticParseNode
 import com.workday.montague.semantics.Form
 import com.workday.montague.semantics.SemanticState
+import java.util.Date
+import java.text.SimpleDateFormat
 
 /**
   * Created by prime on 21/3/17.
@@ -41,6 +43,12 @@ object router {
 
   /* Final query is composed using the query public query variable and final filterdata  array accumulated from case class*/
   def composeFinalQuery():Unit = {
+    if(completeFilterData.size == 0){ // when no filterdata is formed - default date range filter is applied for 1 month
+      val currentMonth = new SimpleDateFormat("yyyy-MM").format(new Date())
+      val defaultTimeperiod = dateOps.getDateRange(currentMonth).get
+      val newFilterData = getFilterDataForDateRange(defaultTimeperiod._1,defaultTimeperiod._2)
+      updateFilterDataArray(newFilterData)
+    }
     primeEventsFinalCaseClass = primeEventsDefaultCaseClass.copy(query=query,filterData=completeFilterData);
     displayOutput.show(jsonOps.convertToJson(primeEventsFinalCaseClass))
     resetVariables()
@@ -54,6 +62,11 @@ object router {
   def getFilterDataFromJson(filterName:String,optionName:String):jsonOps.filterData = {
     val filterData = jsonOps.parsedJson.filter(x=>x.name.toLowerCase==filterName.toLowerCase).sortBy(- _.options.size).head
     filterData.copy(options = filterData.options.filter(x=>x.name.get.toLowerCase == optionName.toLowerCase)) // TODO : Optimize filter for cities
+  }
+
+  def getFilterDataForDateRange(startTimeStamp:Long,endTimeStamp:Long):jsonOps.filterData = {
+    val options = jsonOps.options(None,None,None,None,None,Some(startTimeStamp),Some(endTimeStamp))
+    jsonOps.filterData(None,"Date Range","Date Range","enddate",Array(options),Some(false),Some(false))
   }
 
 
@@ -82,7 +95,14 @@ object router {
           val newFilterData = getFilterDataFromJson(location.name,location.value)
           updateFilterDataArray(newFilterData)
         }
-        case Some(date:Date) => Nil
+        case Some(d@DateString(date)) => {
+          val newFilterData = getFilterDataForDateRange(d.dateValue.get._1,d.dateValue.get._2)
+          updateFilterDataArray(newFilterData)
+        }
+        case Some(d@DateRange(date1,date2)) => {
+         val newFilterData = getFilterDataForDateRange(date1.dateValue.get._2,date1.dateValue.get._1)
+          updateFilterDataArray(newFilterData)
+        }
         case Some(SearchString(query)) =>{
             this.query = query
         }
@@ -92,6 +112,7 @@ object router {
           updateFilterDataArray(newFilterData)
         }
         case None => Nil
+        case _ => Nil
       }
     }
     composeFinalQuery()

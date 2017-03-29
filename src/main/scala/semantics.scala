@@ -49,9 +49,11 @@ case class DateAndLocation(location: Location,dateEntity: DateEntity)
 
 
 sealed trait DateEntity extends Entity
-case class DateString(value:String) extends DateEntity
-case class Date(date:String) extends DateEntity
-case class DateRange(startDate: Date,endDate: Date) extends DateEntity
+case class DateString(value:String) extends DateEntity{
+  var dateValue:Option[(Long,Long)] = None
+}
+//case class Date(date:String) extends DateEntity
+case class DateRange(startDate: DateString,endDate: DateString) extends DateEntity
 
 case class SearchString(query:String) extends Entity// Fuzzy search string.
 

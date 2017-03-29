@@ -23,7 +23,7 @@ object jsonOps {
   /* options : case class to construct the options inside the filtered data in the Post query to Events app . This provides the
   *  Further filter level details - Value of the filter. Example - conference (when filter is Event type ) */
   case class options(id:Option[Int],stringId:Option[String],name:Option[String],year:Option[String] = None,
-                     selected:Option[Boolean]=None) extends eventsAppQuery
+                     selected:Option[Boolean]=None,startTimeStamp:Option[Long]=None,endTimeStamp:Option[Long]=None) extends eventsAppQuery
 
   // TODO : See if this can be combined with options case class and can be defaulted to None.
 
@@ -36,8 +36,12 @@ object jsonOps {
   /* Complete query to primeEvents search */
   case class primeEventsJson(query:String,offset:Int=0,limit:Int=10,filterData:Array[filterData],pastEvents:Boolean=false,sortBy:String="relevance") extends eventsAppQuery
 
+  case class primeEventList(id:Int,title:Option[String],description:Option[String],city:Option[String],country:Option[String])
+
   /* implicit decoder for filterData */
   implicit val decoderFilterData:Decoder[filterData] = Decoder.forProduct7("id","displayName","name","type","options","notDeletable","notApplicable")(filterData.apply)
+
+  implicit val decoderPrimeEventsList:Decoder[primeEventList] = Decoder.forProduct5("id","title","description","city","country")(primeEventList.apply)
 
   setFilterDataFromJson()
 
@@ -50,6 +54,11 @@ object jsonOps {
         parsedJson = parsedJson :+ o
       })
     })
+  }
+
+  def getPrimeEventsListFromJson(json:String):Array[primeEventList] = {
+    println(parse(json).right.get.\\("primeEventList").head.as[Array[primeEventList]])
+    parse(json).right.get.\\("primeEventList").head.as[Array[primeEventList]].right.get
   }
 
   def handleType(str:String):String = {

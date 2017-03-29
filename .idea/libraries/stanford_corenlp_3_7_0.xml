@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="stanford-corenlp-3.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/logesh/libs/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
