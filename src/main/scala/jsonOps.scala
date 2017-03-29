@@ -57,7 +57,6 @@ object jsonOps {
   }
 
   def getPrimeEventsListFromJson(json:String):Array[primeEventList] = {
-    println(parse(json).right.get.\\("primeEventList").head.as[Array[primeEventList]])
     parse(json).right.get.\\("primeEventList").head.as[Array[primeEventList]].right.get
   }
 

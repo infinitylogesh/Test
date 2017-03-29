@@ -44,10 +44,10 @@ object LexiconOps {
               (Seq("related") ->Seq(((NP\NP)\NP,identity),((NP\NP),identity),((NP\O),identity))) +
               (Seq("list all the","list the") ->(S/NP,identity)) +
               (Seq("are") ->(NP\NP,identity)) +
-              (Seq("and") ->((NP\NP)/NP,λ {d1:DateString =>λ {d2:DateString =>DateRange(d1,d2)}})) +
+              (Seq("and","to") ->((NP\NP)/NP,λ {d1:DateString =>λ {d2:DateString =>DateRange(d1,d2)}})) +
               (Seq("happening") ->Seq((NP\NP,identity),
                                       (NP/NP,identity))) +
-              (Seq("between") -> Seq((((NP\NP)/NP),λ { dateRange:DateEntity => λ { location:Location => λ { eventType:Option[EventType] => listEvents(eventType,None,None,Some(location),Some(dateRange))}}}),
+              (Seq("between","from") -> Seq((((NP\NP)/NP),λ { dateRange:DateEntity => λ { location:Location => λ { eventType:Option[EventType] => listEvents(eventType,None,None,Some(location),Some(dateRange))}}}),
                                     (((NP\NP)/NP),λ { dateRange:DateEntity =>  λ { eventType:Option[EventType] => listEvents(eventType,None,None,None,Some(dateRange))}}),
                                     (((NP\NP)/NP),λ { dateRange:DateEntity =>  λ { location: Location=> DateAndLocation(location,dateRange)}}),
                                     ((NP/NP),identity)

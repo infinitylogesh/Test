@@ -18,13 +18,20 @@ object displayOutput {
      result.onComplete(completedResult =>{
        if(completedResult.isSuccess){
          println(completedResult.get.body)
-          jsonOps.getPrimeEventsListFromJson(completedResult.get.body).map(x=>println(x))
-
+          jsonOps.getPrimeEventsListFromJson(completedResult.get.body).map(x=>prettyPrint(x))
+         println(">>")
        }else{
          println("Post request failed")
          throw new Exception("Post Request of output failed")
        }
      })
+  }
+
+  def prettyPrint(event:jsonOps.primeEventList) = {
+    println("\n"+"id:"+ event.id + "\t" + "City:" + event.city.getOrElse("") + "\t" + "Country:" + event.country.getOrElse(""))
+    println("Title:"+ event.title.getOrElse(""))
+    println("Description:" + event.description.getOrElse(""))
+    println("---------------------------------------------------------")
   }
 
 }
