@@ -12,6 +12,7 @@ object dateOps {
   val monthRegex:Regex = "([0-9-]{4})-([0-9]{2})".r  //2017-04
   val yearRegex:Regex = "([0-9-]{4})".r //2018
   val dateRegex:Regex = "([0-9-]{4})-([0-9]{2})-([0-9]{2})".r //2017-01-20
+  val weekdayRegex = "([0-9-]{4})-([0-9]{2})-([0-9]{2})-WXX-[0-9]".r //2017-04-01-WXX-6
   val calendar:Calendar = {     // Calendar is initiated and reset to 00:00:00:00
   val cl = Calendar.getInstance()
     cl.set(Calendar.HOUR,0)
@@ -33,6 +34,7 @@ object dateOps {
       case monthRegex(year,month) => processMonth(year.toInt,month.toInt)
       case yearRegex(year) => processYear(year.toInt)
       case dateRegex(year,month,day) =>  processDate(year.toInt,month.toInt,day.toInt)
+      case weekdayRegex(year,month,day) => processDate(year.toInt,month.toInt,day.toInt)
       case _ => None
     }
   }

@@ -106,7 +106,7 @@ class HTTPClient {
 object HTTPClient{
 
   def apply() = {
-    val hTTPClient = new HTTPClient();
+    val hTTPClient = new HTTPClient()
       hTTPClient.user = attributes.httpUser
       hTTPClient.password = attributes.httpUserPassword
       hTTPClient.init()

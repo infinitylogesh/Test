@@ -100,7 +100,7 @@ object router {
           updateFilterDataArray(newFilterData)
         }
         case Some(d@DateRange(date1,date2)) => {
-         val newFilterData = getFilterDataForDateRange(date1.dateValue.get._2,date1.dateValue.get._1)
+         val newFilterData = getFilterDataForDateRange(date1.dateValue.get._1,date2.dateValue.get._2)
           updateFilterDataArray(newFilterData)
         }
         case Some(SearchString(query)) =>{

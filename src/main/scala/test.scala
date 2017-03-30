@@ -25,21 +25,25 @@ object test {
       LexiconOps.injectLexicon(Location("chennai"))
       LexiconOps.injectLexicon(Location("bangalore"))
       LexiconOps.injectLexicon(Location("mumbai"))
+      LexiconOps.injectLexicon(Location("pune"))
      /* LexiconOps.injectLexicon(DateString("this month"))
       LexiconOps.injectLexicon(DateString("today"))
      // LexiconOps.injectLexicon(Date("02/03/1990"))*/
       //LexiconOps.injectLexicon(DateString("1st of april"))
       //LexiconOps.injectLexicon(DateString("2nd of april"))
       LexiconOps.injectLexicon(SearchString("oracle"))
+      LexiconOps.injectLexicon(SearchString("aws"))
+      LexiconOps.injectLexicon(SearchString("j2ee"))
+      LexiconOps.injectLexicon(SearchString("ux"))
 
      // val sampleJson = jsonOps.primeEvent.asJson.noSpaces.replace("\"Type\":","\"type\":")
 
 
       //((chn.value) -> (NP,Form(chn):SemanticState))
-      //val output = preProcess.parseSentence(preProcess.modelLocation,line);
-      suTime.extractDates(line);
-      println(LexiconOps.lexicon.map.values.toList)
-      val parsedLine = parser.parse(line);
+   val output = preProcess.parseSentence(preProcess.modelLocation,line);
+      println(output)
+     suTime.extractDates(line)
+      val parsedLine = parser.parse(line)
       val ParsedOutput = parser.customParser(parsedLine)
    //   parser.parse(line).bestParse
       router.route(ParsedOutput)

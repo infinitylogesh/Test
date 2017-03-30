@@ -36,12 +36,12 @@ object jsonOps {
   /* Complete query to primeEvents search */
   case class primeEventsJson(query:String,offset:Int=0,limit:Int=10,filterData:Array[filterData],pastEvents:Boolean=false,sortBy:String="relevance") extends eventsAppQuery
 
-  case class primeEventList(id:Int,title:Option[String],description:Option[String],city:Option[String],country:Option[String])
+  case class primeEventList(id:Int,title:Option[String],description:Option[String],eventDate:Option[Long],city:Option[String],country:Option[String])
 
   /* implicit decoder for filterData */
   implicit val decoderFilterData:Decoder[filterData] = Decoder.forProduct7("id","displayName","name","type","options","notDeletable","notApplicable")(filterData.apply)
 
-  implicit val decoderPrimeEventsList:Decoder[primeEventList] = Decoder.forProduct5("id","title","description","city","country")(primeEventList.apply)
+  implicit val decoderPrimeEventsList:Decoder[primeEventList] = Decoder.forProduct6("id","title","description","eventDate","city","country")(primeEventList.apply)
 
   setFilterDataFromJson()
 
