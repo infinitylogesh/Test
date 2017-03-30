@@ -29,7 +29,7 @@ object displayOutput {
      })
   }
 
-  def prettyPrint(event:jsonOps.primeEventList) = {
+  private def prettyPrint(event:jsonOps.primeEventList) = {
     //val eventDate = new Date(event.eventDate.getOrElse(0L))
     println("\n"+"id:"+ event.id + "\t" + "City:" + event.city.getOrElse("") + "\t" + "Country:" + event.country.getOrElse("") /*+ "\t" + "Event date:" + eventDate*/)
     println("Title:"+ event.title.getOrElse(""))

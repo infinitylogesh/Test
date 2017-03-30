@@ -26,6 +26,7 @@ object test {
       LexiconOps.injectLexicon(Location("bangalore"))
       LexiconOps.injectLexicon(Location("mumbai"))
       LexiconOps.injectLexicon(Location("pune"))
+      LexiconOps.injectLexicon(Location("ahmedabad"))
      /* LexiconOps.injectLexicon(DateString("this month"))
       LexiconOps.injectLexicon(DateString("today"))
      // LexiconOps.injectLexicon(Date("02/03/1990"))*/
