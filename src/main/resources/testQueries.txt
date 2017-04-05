@@ -14,9 +14,9 @@ java related events happening in chennai
 what are all my events
 what are all my events in chennai
 events organized by me
-events in chennai between 1st and 2nd
-events between 1st and 2nd
-java events in chennai between 1st and 2nd
+events in chennai between 1st of April and 20th of December
+events between 1st of April and 20th of December
+java events in chennai between 1st of April and 20th of December
 list all the events that i am participating
 list all the events i am participating
 List all the events that  I am speaking
@@ -31,8 +31,8 @@ Events happening today
 conferences happening today
 recent training in java
 run regression
-List all the Java related events between 1st and 2nd
-List all the D&I related events between 1st and 2nd
+List all the Java related events between 1st of April and 20th of December
+List all the D&I related events between 1st of April and 20th of December
 List all the Java related events happening this week
 List all the D&I related events happening this week
 what are all the cultural events scheduled this month

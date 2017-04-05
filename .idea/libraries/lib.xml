@@ -1,12 +1,13 @@
 <component name="libraryTable">
-  <library name="montague_2.10-0.0-SNAPSHOT">
+  <library name="lib">
     <CLASSES>
-      <root url="jar://$USER_HOME$/logesh/libs/montague_2.10-0.0-SNAPSHOT.jar!/" />
+      <root url="file://$PROJECT_DIR$/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../upshot-montague-master" />
       <root url="file://$PROJECT_DIR$/../upshot-montague-master/src/main/scala/com/workday/montague/sql_old/sfdc" />
     </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
   </library>
 </component>

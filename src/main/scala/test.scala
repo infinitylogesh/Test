@@ -1,6 +1,7 @@
 package prime
 
 import scala.io.Source.stdin
+import prime.parser
 import com.workday.montague.ccg.{CcgCat, NP, S}
 import com.workday.montague.semantics.{Form, SemanticState, identity, λ}
 import io.circe._, io.circe.parser._
@@ -37,15 +38,10 @@ object test {
       LexiconOps.injectLexicon(SearchString("j2ee"))
       LexiconOps.injectLexicon(SearchString("ux"))
 
-     // val sampleJson = jsonOps.primeEvent.asJson.noSpaces.replace("\"Type\":","\"type\":")
-
-
-      //((chn.value) -> (NP,Form(chn):SemanticState))
-   val output = preProcess.parseSentence(preProcess.modelLocation,line);
-      println(output)
      suTime.extractDates(line)
-      val parsedLine = parser.parse(line)
-      val ParsedOutput = parser.customParser(parsedLine)
+      val parserObj = new parser(LexiconOps.lexicon)  // REPL Bug fix - Initiated for every query to reload the fresh lexicon always - Lexicons injected from suTime as well
+      val parsedLine = parserObj.parse(line)
+      val ParsedOutput = parserObj.customParser(parsedLine)
    //   parser.parse(line).bestParse
       router.route(ParsedOutput)
       print(">> ")

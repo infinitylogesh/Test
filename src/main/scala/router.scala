@@ -27,7 +27,7 @@ object router {
         case regression:regression.type => regress.renderResult();
       }
       case Some(Form(d@listEvents(_,_,_,_,_,_,_))) => processListEvents(d)
-      case _ => println(output); // TODO : Remove after usage
+      case _ => println(output,LexiconOps.lexicon.map.toList); // TODO : Remove after usage
     }
   }
 

@@ -9,14 +9,14 @@ import com.workday.montague.semantics.{λ, _}
   * Created by prime on 16/3/17.
   */
 
-object parser extends SemanticParser[CcgCat](LexiconOps.lexicon){
+class parser(dict:ParserDict[CcgCat]) extends SemanticParser[CcgCat](dict){
 
   val stopWords = List("that","related","to")
 
   // TODO : Performance check - !!Alert.
 
   // Getting the keys of the lexicons and spliting the keys.
-  val lexiconKeys = LexiconOps.lexicon.map.keys.toList.map(x=>x.split("\\s+")).flatMap(x=>x).distinct
+  def lexiconKeys = LexiconOps.lexicon.map.keys.toList.map(x=>x.split("\\s+")).flatMap(x=>x).distinct
   val attributeFilterWords = attributes.attributesMap.flatMap(x=>x._2).toList
 
   def parse(str: String): SemanticParseResult[CcgCat] = parse(str, tokenizer = parenTokenizer)
@@ -25,7 +25,8 @@ object parser extends SemanticParser[CcgCat](LexiconOps.lexicon){
   private def parenTokenizer(str: String) = {
     val splitString = str.replace("(", " ( ").replace(")", " ) ").trim.toLowerCase.split("\\s+")
     val tokensSansStopWords = splitString.filterNot(stopWords.contains(_)) // removing the stop words
-    tokensSansStopWords.filter((lexiconKeys++attributeFilterWords).contains(_)) // retaining the tokens that are only present in lexicons
+    val finalTokenized = tokensSansStopWords.filter((lexiconKeys++attributeFilterWords).contains(_)) // retaining the tokens that are only present in lexicons
+    finalTokenized
   }
 
   /*

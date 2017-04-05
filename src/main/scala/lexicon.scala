@@ -64,7 +64,7 @@ object LexiconOps {
                // TODO : Revisit this approach of using eventsAppsMap.
               (attributeMatcher("apps") -> (A,{app:String=>Form((attributes.eventsAppsMap(app)))})) +
               (attributeMatcher("objects") -> (O,{app:String=>Form(SearchString(app))}))
-              // Lexicons for all the event types are injected.
+//              / Lexicons for all the event types are injected.
               injectLexiconForEventTypes()
 
 
